@@ -1,0 +1,142 @@
+* Badgering the Badger
+- Reward :: Skipping the Red line and Fascist lines on the
+  way to Lab X18
+- Location :: Harmony (Railyard just west of Paveletskaya)
+
+** Badger
+Badger is a notorious smuggler that has set up shop in and
+around Harmony smuggling goods between Central, Red,
+and Fascist lines. Preferring to stay out of the politics of
+the primary lines, he has accrued an amount of goodwill
+among leadership of all the major lines who prefer to have a
+deniable alternative to official channels of navigation.
+
+While a shrewd and cunning smuggler, the man himself is
+surprisingly vain and prone to exaggeration. Maybe do to his
+unimposing demeanor, he feels the need to compensate. Vanity
+and power, coalescing into volatility when he is denied what
+he wants.
+
+** Background
+About a year and half ago while in the midst of a deep
+depression regarding the murder of her fiance, Kaylee,
+Larissa grievously insulted Badger. In turning his sexual
+advances down by laughing in his face and refusing to stop
+laughing after her point was made, Badger returned the
+insult by shooting Larissa in the right clavicle with his
+revolver. Larissa responded in kind by shooting him in the
+leg just above his right knee with her shotgun. The only
+thing saving Larissa from a torturous death at the hands of
+Badger's men was his need for Spartan patrols to clear
+overland routes in the wastes as well as how personally
+embarrassed he'd be to find out how Larissa humiliated at
+him. Adding insult to injury, while Larissa recovered from
+her wounds mostly unscathed, saved for a scar and some
+residual pain, Badger has been walking with a limp ever
+since. Last Larissa heard, he's been saying he got it
+fending off a controller.
+
+** Setup
+The party will make their way to Badger's offices by hopping
+on a train headed for Paveletskaya. A few minutes out from
+the station, as the train has to slow down for a switch
+track turn, the party will have to jump off and head down
+the seemingly abandoned tunnel the train turned away from.
+At the end of the tunnel they will enter into Harmony, a
+small, but bustling, hub of black market activity. Of which,
+Badger has final say over. If anything happens in Harmony,
+he knows about it, and approved of it.
+
+** The Fix
+Badger has a problem however, about a week ago some new
+muscle showed up in town, at the exact time the Harmony Town
+Committee was trying to apply for Stationhood with the three
+major lines. Since he's on the committee and needs to
+present an air of civility during the hearings, he can't be
+seen getting involved. But this new muscle is jeopardizing
+their chances and needs to be dealt with. If the party can
+deal with this group, getting exiled in the process, Badger
+will smuggle them through Red and Central Lines.
+
+** The Job
+The party will have to locate, tail, and "handle" (however
+they see fit) this mysterious group that's been roughing up
+harmony residents. The tip from Badger will be that the
+he thinks they'll assault one of his bookies as they go around
+collecting protection. He'll give the party a list of
+residents who are paying today and when the bookie will be
+making his rounds. The party can start the tail from there.
+
+*** The Tail
+- start time :: 8:00PM
+- residents
+  - Henry Himbo
+  - Three-Toed Tanya
+  - Ben Dover
+  - Janet
+  - Michael Realman
+  - Valerie Butts
+- group will jump the bookie at Ben Dover's house
+- tail events
+  - glass pane
+  - kid steels a vendor's cabbages "MY CABBAGES!!"
+  - a dog starts parking at the player
+  - man randomly looks behind him
+
+If the party fails the skill checks badly enough it will
+alert the man and he will start sprinting. The party can
+keep track of him, but they will lose the element of
+surprise in dealing with the group headquarters.
+
+*** Headquarters
+There will be eight men in total in the headquarters and
+they will be either be alert or unaware depending on how the
+party handled the tailing skill checks.
+
+When the party finally gets to the ringleader, he will crack
+a cyanide capsule in his pen (or teeth if the party has
+incapacitated him) and kill himself. Announcing "Embrace the
+end" before shaking violently to death.
+
+**** Surprised Breach
+If the party charges in and breaches, the ring leader will
+be downstairs and caught off guard and will immediately try
+to flee upstairs to burn any sensitive documents.
+
+Burning the documents will take a few rounds of combat (open
+the safe, light a fire, burn the documents) so the party
+will have some time to get to him before they're all gone
+
+**** Surprised Reconnaissance
+If the party decides to do some reconnaissance before
+breaking in they will find the ring leader at his desk
+looking over some documents and writing in his journal.
+
+They will see him get called downstairs at the arrival of
+the member that jumped the bookie. Before he goes, he will
+lock the documents in a safe and pocket the key
+
+**** Aware
+If the party fails the skill check the ring leader will
+already have burnt the documents beyond recognition
+
+*** Aftermath
+After the bloodshed is over, Badger will arrive on the scene
+trailed by some very official looking people with
+clipboards and very publicly arrest the party. He will then
+take them back to his offices where he will brusquely cram
+them into some fake crates in the back of a van heading
+south.
+
+The party will spend a long time in the van until they will
+feel it come to a stop on an incline, then back up, the
+engine cut out, and the two drivers clamber out of the car.
+At this point the van will start to roll back and before the
+party can break out of it, they will tumble into a sewage
+ditch (taking 15 dmg). As one final insult, Badger will spit
+directly onto Larissa's face after the party climbs out of
+the now upside down van covered in sewage, before joining
+his men and driving off.
+
+Larissa will remark "You know, I think that went better than
+expected" and start walking out of the sewage pit.

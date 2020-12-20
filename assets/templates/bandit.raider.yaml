@@ -1,0 +1,22 @@
+type: character
+id: bandit.raider
+name: Bandit Raider
+faction: bandits
+health: 60
+dt: 4
+ap: 3
+abilities:
+  - id: reckless-charge
+    name: Reckless Charge
+    description: >-
+      Run and gun except the next attack on this target has
+      a lowered crit threshold down to 15
+    cooldown: 3
+    ap: 2
+  - id: shoot
+    name: Basic Shot
+    description: Badit takes aim with their crude gone and fires.
+    ap: 2
+    cooldown: 0
+    accuracy: 1 + 1d20
+    damage: 10 + 1d6

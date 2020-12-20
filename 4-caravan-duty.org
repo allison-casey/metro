@@ -1,0 +1,171 @@
+* Caravan Duty
+- Reward :: 800
+- Urgent? :: false
+Spartans are relocating a large group of refugees from and
+abandoned raided independent station to friendly stations in
+the central line. The journey, however, will take the
+caravan through bandit territory and they're going to need
+protection.
+
+Larissa will already be assigned to this job when the party
+gets it and will assist them if they decide to take it. The
+journey their will also give an opportunity for another
+encounter with Aeon who will have an interaction involving
+her dead partner Kaylee.
+
+When the party arrives, the caravan will be roughly 150
+strong of men, women, and children. They will be lacking
+fighters with most of them wounded during the raid that
+destroyed the station.
+
+The party will be ambushed by bandits on the way back as
+they pass through an old park.
+
+** Bandit Types
+*** Bandit King
+#+begin_src yaml :tangle ./templates/bandit.king.yaml
+  id: bandit.king
+  name: Bandit King
+  interleaved?: true
+  hp: ~200
+  description: >-
+      Leader by blood of a bandit group, more powerful and
+      deadly than your average raider, but cocky and
+      prone to overestimating their power.
+  abilities:
+    - id: terrifying
+      name: Terrifying Presence
+      description: >-
+        Free action, damage dealt while this ability is active
+        will have chance to cause target to panic +12 END save,
+        lasts 2 rounds
+      cooldown: 3
+#+end_src
+
+*** Bandit Raider
+#+begin_src yaml :tangle ./templates/bandit.raider.yaml
+  id: bandit.raider
+  name: Bandit Raider
+  hp: 60
+  abilities:
+    - id: reckless-charge
+      name: Reckless Charge
+      description: >-
+        Run and gun except the next attack on this target has
+        a lowered crit threshold down to 15
+      cooldown: 3
+#+end_src
+
+*** Bandit Sniper
+#+begin_src yaml :tangle ./templates/bandit.sniper.yaml
+  id: bandit.sniper
+  name: Bandit Sniper
+  hp: 40
+  abilities:
+    - id: cover-target
+      name: Cover Target
+      description: >-
+        Watch a target and take a shot if the target takes any
+        action except; hunkering, reloading, or other
+        defensive actions
+      cooldown: 3
+#+end_src
+
+*** Bandit Heavy
+#+begin_src yaml :tangle ./templates/bandit.heavy.yaml
+  id: bandit.heavy
+  name: Bandit Juggernaut
+  hp: alot
+  passives:
+    - id: huge
+      name: Huge
+      description: Cannot take cover
+  abilities:
+    - id: bulrush
+      name: Bulrush
+      description: >-
+        Destroy cover by running through it and anyone
+        standing on the other side. Targets on the other side
+        are thrown back two tiles, staggered, and take (15 + 2d6)
+      cooldown: 2
+    - id: punch
+      name: Punch
+      description: >-
+        1AP General attack ability encompassing all melee
+        attacks. Deals (6 + 1d6)
+#+end_src
+** After Action Report
+During their march toward Spartan territory, the party
+encountered an overgrown temple that quickly became the
+proving ground for a battle of wits, a pudding love story,
+and a religious reckoning. Without hesitation Mikey and
+Nevil went to work turing the temple upside down searching
+for artifacts to one up each other with. All the while Pluck
+began to gravitate toward the beautiful princess sex doll
+companion.
+
+Having sufficiently embarrassed Larissa in front of Lilya
+during their impromptu three legged race
+The party successfully fended off the bandit king and his
+posse, killing the bandit king in the process.
+
+*** Effects
+- Isaac turned into a pickle and it was the funniest shit
+  I've ever seen.
+- Lilya and all of her caravan survived the trek through
+  bandit territory, even if she was hurt pretty bad in the
+  fight.
+- The bandit king is dead and his forces scattered to the
+  wind. His plans of expanding the bandit empire into
+  independent territory (an action that would have added a
+  pip to the doom ticker) died with him.
+- Larissa and Lilya's budding relationship continues to
+  blossom. And with Lilya staying at Spartan HQ to heal from
+  her wounds, the two of them will have ample time to get to
+  know each other.
+- Ricky Phoenix had a religious revival at the church,
+  gather with him many religious icons.
+- Pluck and Princess Sex Doll love story begins threatening
+  to tear Mikey and Pluck apart.
+
+*** Loot
+- Lilya will give the party her *Talisman of the Frontier*,
+  a relic of a generation out on the fringes of the metro.
+  Gifted to those making their own way in this world. A
+  beacon to rally around in the darkness and a source of
+  inspiration when hope seems lost. Grants *1AP Command*.
+- Quest completion reward, $200 + 50$ bullet bonus for no
+  allied deaths and the scattering of bandit forces.
+- Armor of Thorns from the bandit king. Grants *1AP Roll*
+  that hits for guaranteed $5HP$ and allows for a two tile
+  traversal through characters.
+- Fume Ultra Great Sword from the bandit king. Massive sword
+  capable of inflicting massive damage.
+
+*** Progression
+**** Homeward Bound
+On their way back to the DMZ the party will have an
+opportunity to go artifact hunting. Lilya and Larissa will
+use the time to let the children and wounded rest (including
+themselves). If the part decides to go hunting, children in
+the caravan will bug Nevil and Mikey about playing another
+game, much to the amusement of Lilya and Larissa.
+
+**** Conquering Heroes
+Having returned from the mission with the entire caravan
+intact /and/ killing the bandit king. Maria will reward the
+party an additional 50 bullets for the feat. Afterwards she
+will let the party know of changes in the bounty board.
+
+- Bug Hunt
+  - Expiration :: 3 -> 2 days
+- Border Dispute
+  - Expiration :: 2 -> 2 day
+  - Reward :: +50 if no one dies
+- Independent Hideout
+  - Expiration :: 3 -> 2 days
+
+She will then let the party know that Larissa has asked to
+go with the party to X18 when they decide to leave. She'll
+let her go on the condition that she finish the jobs
+assigned to her (Bug Hunt).

@@ -1,0 +1,38 @@
+type: character
+id: acolyte.officer
+name: Acolyte Officer
+faction: the-dead-hand
+health: 85
+dt: 5
+ap: 3
+description: >-
+    Squad leader that gives powerful offensive buffs to
+    squad mates
+passives:
+  - id: inspiring-presence
+    name: Inspiring Presence
+    description: >-
+      Allies get moral boost while this unit is alive and a
+      moral shock when killed
+abilities:
+  - id: ascend
+    name: Ascend To Vessel
+    description: >-
+      Sacrifice themselves in order to ascend to a vessel
+      state.
+    duration: 2
+    ap: 3
+  - id: mark-target
+    name: Mark Target
+    description: >-
+      Allies gain advantage on attacks against marked target.
+      lasts 2 rounds.
+    cooldown: 3
+    duration: 2
+    ap: 2
+  - id: teamwork
+    name: Teamwork
+    description: >-
+      Trade 1AP with any ally in sight for immediate use
+    cooldown: 2
+    ap: 1

@@ -1,0 +1,81 @@
+Metro Station,Item,Status,Amount,Date Requested
+Lesoparkovaya,Steel Rail (Meters),Pending Review,100,06/01/1998
+Ulitsa Skobelevskaya,AK 74,Delayed,20,05/05/1997
+Novokuznetskaya,Rebar (Meters),Completed,740,06/21/1990
+Kropotkinskaya,Rebar (Meters),Completed,730,03/02/1991
+Ulitsa Skobelevskaya,Rebar (Meters),Denied,590,03/24/1997
+Ulitsa Skobelevskaya,Wood Dimension 2x4 (Pallets),Pending Review,140,03/25/1990
+Bulva Dimitriya Doonskogo,Concrete (Tonnes),Completed,1770,01/31/1997
+Lesoparkovaya,Concrete (Tonnes),Completed,630,08/22/1995
+Annino,2mm Insulated Copper Wiring (Meters),Pending Review,1100,01/20/1997
+Annino,Rebar (Meters),Completed,1130,03/25/1992
+Kiyevskaya,Wood Dimension 2x4 (Pallets),Delayed,120,10/01/1995
+Yujnaya,2mm Insulated Copper Wiring (Meters),Completed,1280,03/19/1993
+Bitsevsky,AK 74,Delayed,5,02/17/1999
+Avtozavodskaya,2mm Insulated Copper Wiring (Meters),Completed,1340,09/25/1998
+Lesoparkovaya,Steel Rail (Meters),Denied,130,06/17/1998
+Annino,Steel Rail (Meters),Completed,80,07/25/1993
+Borovitskaya,Wood Dimension 2x4 (Pallets),Delayed,90,10/19/1998
+Lesoparkovaya,Rebar (Meters),Delayed,770,03/09/1993
+Bitsevsky,Concrete (Tonnes),Completed,710,02/17/1997
+Yujnaya,2mm Insulated Copper Wiring (Meters),Completed,2240,11/23/1991
+Nagatinskaya,Wood Dimension 2x4 (Pallets),Completed,100,10/02/1991
+Annino,Concrete (Tonnes),Completed,1430,02/03/1990
+Yujnaya,Rebar (Meters),Delayed,920,06/02/1999
+Tsaritsino,Concrete (Tonnes),Denied,1160,06/05/1995
+Novokuznetskaya,Rebar (Meters),Delayed,960,05/28/1998
+Ulitsa Gorchakova,High Density Insulation (1m²),Pending Review,1190,03/03/1996
+Lesoparkovaya,Rebar (Meters),Completed,840,09/19/1997
+Borovitskaya,Concrete (Tonnes),Delayed,720,11/24/1994
+Yujnaya,Steel Rail (Meters),Completed,110,07/04/1998
+Borovitskaya,Concrete (Tonnes),Delayed,900,05/29/1994
+Kiyevskaya,Series 1 Computer Workstation,Completed,9,08/02/1999
+Kropotkinskaya,Wood Dimension 2x4 (Pallets),Completed,160,10/23/1998
+Bulvar Admirala Ushkova,Rebar (Meters),Completed,990,10/17/1997
+Ulitsa Gorchakova,Concrete (Tonnes),Completed,740,02/17/1995
+Annino,AK 74,Completed,1,03/08/1993
+Novokuznetskaya,Series 2 Computer Workstation,Completed,9,06/23/1996
+Bitsevsky,High Density Insulation (1m²),Pending Review,710,02/16/1999
+Yujnaya,Series 2 Computer Workstation,Denied,7,05/10/1995
+Kropotkinskaya,Makarov,Completed,10,01/02/1996
+Nagatinskaya,Wood Dimension 2x4 (Pallets),Completed,100,04/17/1995
+Ulitsa Gorchakova,Wood Dimension 2x4 (Pallets),Completed,100,04/12/1994
+Bulva Dimitriya Doonskogo,Steel Rail (Meters),Completed,110,09/19/1993
+Ulitsa Skobelevskaya,Steel Rail (Meters),Completed,150,12/15/1997
+Bitsevsky,Rebar (Meters),Delayed,1120,05/08/1991
+Ulitsa Gorchakova,Concrete (Tonnes),Delayed,1170,09/24/1991
+Bulva Dimitriya Doonskogo,Rebar (Meters),Completed,700,01/30/1993
+Kiyevskaya,Wood Dimension 2x4 (Pallets),Completed,110,11/08/1997
+Borovitskaya,Concrete (Tonnes),Completed,1960,10/03/1997
+Avtozavodskaya,Concrete (Tonnes),Completed,1430,12/03/1992
+Lesoparkovaya,High Density Insulation (1m²),Delayed,820,05/19/1997
+Yujnaya,Concrete (Tonnes),Delayed,1390,12/07/1992
+Kiyevskaya,High Density Insulation (1m²),Completed,460,08/06/1997
+Ulitsa Starokachalovskaya,High Density Insulation (1m²),Completed,1,02/19/1996
+Annino,Rebar (Meters),Completed,920,12/23/1996
+Bulva Dimitriya Doonskogo,Copper Piping (Meters),Completed,420,10/20/1991
+Tsaritsino,Concrete (Tonnes),Completed,860,11/03/1996
+Kropotkinskaya,2mm Insulated Copper Wiring (Meters),Completed,1370,08/27/1998
+Nagatinskaya,Rebar (Meters),Completed,760,12/11/1992
+Novokuznetskaya,Concrete (Tonnes),Completed,380,10/16/1992
+Kiyevskaya,Concrete (Tonnes),Delayed,1670,12/29/1999
+Yujnaya,Wood Dimension 2x4 (Pallets),Delayed,80,08/02/1996
+Annino,Concrete (Tonnes),Pending Review,1160,11/26/1998
+Lesoparkovaya,Makarov,Completed,4,07/13/1996
+Annino,Concrete (Tonnes),Completed,1340,11/15/1999
+Lesoparkovaya,Concrete (Tonnes),Completed,430,06/05/1995
+Nagatinskaya,Concrete (Tonnes),Completed,1390,03/02/1997
+Novokuznetskaya,Steel Rail (Meters),Delayed,110,02/21/1999
+Ulitsa Gorchakova,Rebar (Meters),Pending Review,500,05/11/1999
+Bulva Dimitriya Doonskogo,Series 2 Computer Workstation,Delayed,10,09/09/1998
+Bulvar Admirala Ushkova,Rebar (Meters),Completed,870,03/03/1996
+Nagatinskaya,Steel Rail (Meters),Delayed,60,06/17/1994
+Ulitsa Skobelevskaya,Series 2 Computer Workstation,Delayed,10,12/24/1994
+Taganskaya,Refrigerant (50 Liter Drum),Delayed,40,06/18/1993
+Annino,Rebar (Meters),Delayed,740,02/25/1990
+Tsaritsino,Concrete (Tonnes),Completed,1570,12/23/1993
+Borovitskaya,Copper Piping (Meters),Completed,740,08/19/1990
+Bulvar Admirala Ushkova,Concrete (Tonnes),Completed,1290,01/05/1993
+Annino,Rebar (Meters),Completed,340,06/23/1996
+Bulvar Admirala Ushkova,Concrete (Tonnes),Completed,1010,04/08/1999
+Taganskaya,Wood Dimension 2x4 (Pallets),Delayed,80,02/05/1997

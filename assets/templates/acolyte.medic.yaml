@@ -1,0 +1,30 @@
+type: character
+id: acolyte.medic
+name: Acolyte Medic
+faction: the-dead-hand
+health: 70
+dt: 5
+ap: 3
+description: Support infantry unit focusing on defensive buffs
+passives:
+  - id: quick-heal
+    name: Quick Heal
+    description: Healing after moving is a free action
+abilities:
+  - id: smoke
+    name: Smoke
+    description: >-
+      Disperse a cloud of smoke granting disadvantage on all
+      incoming attacks
+    duration: 2
+    cooldown: 3
+    ap: 1
+  - id: cover-target
+    name: Cover Target
+    accuracy: 1d20 + 1
+    damage: 6 + 1d6
+    description: >-
+      Take a reaction shot against covered target on any action
+      except hunkering, reloading, or other non-offensive actions
+    cooldown: 2
+    ap: 2

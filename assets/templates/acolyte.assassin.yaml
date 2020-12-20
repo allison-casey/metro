@@ -1,0 +1,17 @@
+type: character
+id: acolyte.assassin
+name: Acolyte Assassin
+faction: the-dead-hand
+description: >-
+  High mobility parkour focused melee user that enters a flow
+  state for increased mobility and special takedowns
+passives:
+  - id: Flow
+    name: Flow
+    description: >-
+      Flow state grants disadvantage to attackers
+      while in it. Increases by one up to three every round
+      in it. Successful shots on remove one flow. Explosive
+      hits remove all flow. Movement is limited to 45 degree
+      cone for each ap or flow is lost unless using an
+      environmental reversal.

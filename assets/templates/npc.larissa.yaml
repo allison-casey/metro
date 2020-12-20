@@ -1,0 +1,75 @@
+type: character
+id: npc.larissa
+name: Larissa
+health: 80
+dt: 6
+faction: spartans
+ap: 3
+description: >-
+    Hyper aggression vanguard
+passives:
+  - id: shoulder-strike
+    name: Shoulder Strike
+    description: >-
+      Any time Larissa sprints (2+ AP of movement), she can
+      free action shouler strike an enemy at the end of
+      it. (5 + 1d5) dmg + stagger
+  - id: mastery.vaulting
+    name: Vaulting Mastery
+    description: >-
+        Larissa does not have to roll dex checks to vault
+        or otherwise when attacking.
+  - id: cover-slide
+    name: Cover Slide
+    description: >-
+      If Larissa sprints, she can slide into any cover
+      within two tiles at the end of her turn, including
+      positions that would require a vault.
+abilities:
+  - id: aggression
+    name: Aggression
+    description: >-
+      2AP run and gun full 2AP sprint distance and if you
+      kill the target enemy with this action, you get 1AP
+      back immedietly
+    cooldown: 3
+    ap: 2
+  - id: emergency-reload
+    name: Emergency Reload
+    description: >-
+      Load a round of speciality ammo directly into the
+      chamber and fire for that ammo type's damange/effect.
+      Does not affect the ammo left in the magazine. Ammo
+      Types: Dragon's Breath, Flechett, Bean Bag.
+    additional-markup:
+      type: ul
+      items:
+      - type: kv
+        key: Dragon's Breath
+        value:
+          type: roll
+          label: 8 + 1d8 + Fire
+          roll: 8 + 1d8
+      - type: kv
+        key: Flechett
+        value:
+          type: roll
+          label: 13 + 1d8 + ignore 4DT
+          roll: 13 + 1d8
+      - type: kv
+        key: Bean Bag
+        value:
+          type: roll
+          label: 5 + 1RND slow
+          roll: 5
+    cooldown: 3
+    ap: 2
+
+  - id: shoot
+    name: Shotgun Blast
+    description: >-
+      BOTH BARRELS FOR YOU YOU BASTARD
+    ap: 2
+    cooldown: 0
+    accuracy: 3 + 1d20
+    damage: 13 + 1d8

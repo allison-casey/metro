@@ -1,0 +1,84 @@
+type: character
+id: bandit.heavy
+name: Bandit Juggernaut
+faction: bandits
+health: 160
+dt: 10
+ap: 3
+description: >-
+    Heavy melee oriented character, focusing on brutal
+    hand to hand combat and face tanking frontal attacks.
+passives:
+  - id: huge
+    name: Huge
+    description: Cannot take cover
+  - id: achillies-heel
+    name: Achillies Heel
+    description: >-
+      The juggernaut has massive front armor that they use
+      to bulrush through terrain and provide cover to
+      advancing troops. This leaves his rear armor
+      comparatively weak, at 5DT. If 50+ damage is dealt
+      to his rear armor in one round he will be stunned
+      and fall to one knee, where a weakpoint in his
+      neck armor will be revealed. Doing this crit cycle
+      twice will instant kill him.
+  - id: tank
+    name: Tank
+    description: >-
+      Up to two units can stand directly behind this
+      character and gain full cover as a result. Missed
+      shots hit the juggernaut for half damage.
+abilities:
+  - id: bulrush
+    name: Bulrush
+    description: >-
+      Destroy cover by running through it and anyone
+      standing on the other side. Targets on the other side
+      are thrown back two tiles and are staggered.
+    cooldown: 2
+    ap: 2
+    damage: 15 + 2d6
+
+  - id: punch
+    name: Punch
+    ap: 1
+    cooldown: 0
+    description: >-
+      1AP General attack ability encompassing all melee
+      attacks.
+    damage: 6 + 1d6
+    accuracy: 4 + 1d20
+
+  - id: back-kick
+    name: Back Kick
+    ap: 1
+    cooldown: 2
+    description: >-
+      Kick anyone within two tiles behind the juggernaut
+      and knock them back two tiles. Also rotates the
+      juggernaut to face the kicked enemy.
+    damage: 8 + 1d5
+    accuracy: 4 - 1 + 1d20
+
+  - id: shoulder-strike
+    name: Shoulder Strike
+    ap: 1
+    cooldown: 2
+    description: >-
+      The juggernaut slams their shoulder into the opponent
+      cause them to move one tile backwards and imparts
+      stagger.
+    damage: 5 + 1d4
+    accuracy: 4 + 1d20
+
+  - id: grapple-throw
+    name: Juggernaut Grab
+    descripton: >-
+      The Juggernaut grabs the enemy by the head and slams
+      them into the ground before throwing them a great
+      distance (6 tiles)
+    ap: 2
+    cooldown: 2
+    damage: 12 + 2d6
+    accuracy: 4 - 1 + 1d20

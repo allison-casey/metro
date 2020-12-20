@@ -1,0 +1,25 @@
+type: character
+id: bandit.sniper
+name: Bandit Sniper
+faction: bandits
+health: 50
+dt: 2
+ap: 3
+abilities:
+  - id: cover-target
+    name: Cover Target
+    description: >-
+      Watch a target and take a shot if the target takes any
+      action except; hunkering, reloading, or other
+      defensive actions
+    cooldown: 2
+    ap: 2
+    accuracy: 1d20 + 3 + 3
+    damage: 16 + 1d8 + 1d5
+  - id: shoot
+    name: Basic Sniper Shot
+    description: Aim and fire that sniper boi
+    ap: 2
+    cooldown: 0
+    accuracy: 1d20 + 3
+    damage: 16 + 1d8

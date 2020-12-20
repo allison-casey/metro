@@ -1,0 +1,25 @@
+  id: spider.warrior
+  name: Spider Warrior
+  health: 50
+  dt: 12
+  ap: 2
+  faction: spider
+  type: character
+  passives:
+    - id: carapace
+      name: Carapace
+      description: >-
+        Tough outer shell reducing incoming projectile attacks
+    - id: weak.fire
+      name: Weak to Fire
+      description: >-
+          Lighting this unit on fire or 1AP, +14 PER Check will
+          cause this unit to flip onto its belly for a round
+          exposing an unarmored, instant crit, weak point
+  abilities:
+    - id: bite
+      name: Bite
+      description: Basic bite attack
+      ap: 1
+      accuracy: 1d20 + 3
+      damage: 5 + 2d6

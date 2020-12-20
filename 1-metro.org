@@ -1,0 +1,1785 @@
+* Metro
+:PROPERTIES:
+:header-args: :tangle ~/dev/projects/quest/metro/metro.fountain
+:END:
+
+#+begin_src fountain
+Title: Metro Was A Mistake
+Credit: written by
+Author: Steve Casey
+Source: Based on the novel by Dmitry Glukhovsky
+
+
+===
+#+end_src
+
+#+begin_src fountain
+  THE DMZ.
+
+
+  A city in turmoil. Simultaneously in mourning and furiously
+  looking for an answer.
+
+  The loss of a cultural icon, the touchstone of civil society
+  in the metro. DWAYNE THE IRAQ JOHNSON. A man whose death has
+  catapulted the once peacful city into riotous anger.
+
+  Both sides of the DMZ have been shaken to their core. Who
+  killed him? Why?
+
+  There are talks of war...
+#+end_src
+
+** Characters
+*** Dwayne The Iraq Johnson :Independent:
+
+- Age :: 47
+- Alignment :: Lawful Good
+- Status :: Dead
+- Gender :: Male
+
+*** Katya :independent:
+
+- Age :: 38
+- Alignment :: Lawful Good
+- Gender :: Female
+
+*** Peter :independent:
+
+- Age :: 15
+- Alignment :: Lawful Good
+- Gender :: Male
+
+*** Jed :independent:
+
+- Age :: 17
+- Alignment :: Chaotic Evil
+- Gender :: Male
+
+*** Delvin :stalkers:
+
+- Age :: 58
+- Alignment :: Neutral Good
+- Gender :: Male
+
+*** Aion :independent:
+
+- Age :: N/A
+- Alignment :: Neutral Good
+- Gender :: NB
+
+*** Larissa :stalkers:
+
+Trained to be a stalker from birth, Larissa exhibits a
+brutality in combat unmatched by her fellow stalkers.
+
+- Age :: 27
+- Alignment :: True Neutral
+- Gender :: Female
+
+** Locations
+*** The DMZ
+**** The Underground :CentralLine:
+***** Locations
+****** The Bar
+**** Katya's Home :CentralLine:
+**** Shaggy's Sandwich Shack :CentralLine:
+**** Mall :CentralLine:
+**** The Police Station :CentralLine:
+**** Honolulu Hawaiian's Bar :CentralLine:
+**** The Slums :CentralLine:
+**** The Bazaar :CentralLine:
+** Quests
+*** A Lost Boy
+
+#+begin_src fountain
+# A Lost Boy
+#+end_src
+
+**** Characters
+
+- [[*Katya][Katya]]
+- [[*Delvin][Delvin]]
+- [[*Peter][Peter]]
+- [[*Jed][Jed]]
+- [[*Larissa][Larissa]]
+
+**** Locations
+
+- [[*The Bar][The Underground Bar]]
+- [[*Katya's Home][Katya's Home]]
+- [[*Honolulu Hawaiian's Bar][Honolulu Hawaiian's Bar]]
+
+**** Steps
+***** 1. A Mother In Pain
+
+The beginning of the Metro Reboot. Recapping the events of
+the previous season and laying the foundation for the
+conflict that is to come.
+
+I really need to establish how important Dwayne was to the
+rest to the DMZ since its going play a major role down the
+road.
+
+#+begin_src fountain
+  ## A Mother In Pain
+
+  INT. HONOLULU HAWAIIAN'S BAR - EAVENING #1A#
+
+  The once boisterous bar is now silet except for the
+  grumblings of a few downtrodden patrons. HAWAIIAN'S vibrant
+  and colorful aesthetic doesn't seem to have the same appeal
+  under the circumstances.
+
+  A lonesome woman, KATYA, sits apart from the rest of the
+  patrons. Her long ragged hair and longing stare gives her
+  away as a mother in pain.
+
+  THE PARTY enters the bar. A band of oportunists, thrill
+  seekers, schemers, or people looking to do the right thing
+  we don't know. They orient themselves and make their way to
+  their next client. They're here to find a her son, why hes
+  missing and how it came to be, they have yet to know. Only
+  KATYA can say.
+
+#+end_src
+
+****** Introduction
+
+#+begin_src fountain
+
+  THE PARTY
+  ,*Introduces themselves and asks her what the job is.*
+
+  KATYA
+  My boy, hes gone. Its been three days and the station police
+  don't care.
+  They're so busy with _DWAYNE_, but he's my son, hes all I
+  have left.
+
+#+end_src
+
+****** Regarding What Happened
+
+  #+begin_src fountain
+
+    KATYA
+    Three days ago, I found his bed empty. It was the fourth
+    time this month hes done this. He, and his *friend* JED
+    always come back the next day covered with grime and dust
+    from the tunnels. I know he went artifact hunting, I just
+    do. Hes been talking about it for weeks.
+
+  #+end_src
+
+****** Regarding Payment
+
+#+begin_src fountain
+
+  KATYA
+  I don't have much to spare, just a few rounds to go between
+  you. I do have my husband's old rifle, which I would be
+  willing to part with if I can see my boy again. It got him
+  through the last war and his years as a STALKER. At least
+  until it didn't.
+
+#+end_src
+
+****** Regarding Why He Went Into The Tunnels
+
+#+begin_src fountain
+
+    KATYA
+  My husband OMAR was a stalker. one of the best, but a few
+  months back a controller took him from us. PETER hasn't
+  taken it well. He's been trying to become a STALKER himself,
+  but he just doesn't have the heart for it.
+  Its that boy JED, whose convinced him that if he somehow
+  brings back an artifact the STALKERS will let him join.
+  Ridiculous, I know, but he's a boy and it gives him _hope_.
+
+#+end_src
+
+****** Regarding Possible Leads
+
+#+begin_src fountain
+
+  KATYA
+  I'm not sure. My husband never talked about his work at
+  home, he left that for the other STALKERS. Maybe DEVLIN can
+  help, my husband and him go way back.
+  PETER kept all the things he found in the tunnels. I can
+  show you his room, maybe that will help?
+
+#+end_src
+
+***** 2. The Long Walk
+
+The party is venturing forth into the tunnels in search of
+Peter, guided by Larissa they make their way to Debrovka
+Station.
+
+The Party will have to choose between going through the
+maintenance tunnels which will be an exercise in overcomming
+madness or fighting/sneaking through a bandit camp.
+
+This section will encompass the events leading up to that
+fork in the road and the discussion about which they pick.
+
+- Location :: Tunnels
+
+#+begin_src fountain
+  ## The Long Walk
+
+  EXT. TUNNELS #1B#
+
+  The Party begins their long quest to Debrovka Station. The
+  journey only made possible by their stalwart guide Larissa,
+  navigating every abandoned station, wading through every
+  flooded maintenance bay, and avoiding every mutated
+  monstosity the tunnels can throw at you.
+
+  At every turn a new danger, a perpetual darkness at the end
+  of every tunnel, watching, waiting, for its next victim to
+  fall into its gloomy depths.
+#+end_src
+
+***** 3. Wading Through Memories
+If the player's decide to make their way through the
+maintenance tunnels, which looks to be the way Jed and Peter
+went, they will have to contend with the ghosts of the
+engineering team that used to work there.
+
+I'm planning on this section to be mostly about will saves
+and madness effects, being inspired heavily by the valve
+scene from /Chernobyl/.
+
+#+begin_src fountain
+## Wading Through Memories
+#+end_src
+
+****** Music
+
+- [[https://open.spotify.com/track/0aud7NouD28YTcD7WJzioD?si=8NBmnrQySfKBQyrqc_mlRQ][The Door]] (High Madness)
+- [[https://open.spotify.com/track/4f76tcz3PKwty5QVA8JVCA?si=413VVlP8TbGQi1tIsv1YgA][Cooridors]] (Medium Madness)
+- [[https://open.spotify.com/track/1cS7AxpJiwDhCh7v2B0LRd?si=MTATU3ICSuqD3devF-kqxw][Turbine Hall]] (Low Madness)
+
+****** Layout
+
+    #+begin_src artist :tangle no
+
+
+                                         /----------+---------------+---+     .
+                                      /--           |  stair down   |   |  .-+ m  ..
+                                    /-      /-------+---------------+   +   .. -mm+   .
+      +---------+                 --    /---             +---+-----++   +--+-#%+%%%.--.
+      |entrance |                |    --                 | stairs  |      +..-%%#%m#- .
+      +-----+   +                /   /                   +   +-----+       ..---m+.-. -
+            |   |               /   /                    |   |             . .-.-..  .  +---+---+
+            |   +               |   |                    |   |                 ..+|     | exit  |
+            |   |          +----+   +----m .-. --.  +----+   +                    |     |   +---+
+            |   |          |             | ..-.. +  |        |                    |     |   |
+            |   +----------+            .%+*%%#m+m+-+ control| generator room     |     |   |
+            |                            .m#+###+#+ - room   |                +---+-----+   |
+            ++--+----------+            .m+m#m*+#++-+        |                |             |
+                           |             -.---%m.  .+        +                |   +-----+---+
+                           +----+   +----+-.. + .   +----+---+                |   |
+                                |   |                    |     broken ladder  |   |
+                                +   +                    |         +---+      |   |
+                                |   +---------+          |       +-+---+------+   +
+                                |             |          |       |     catwalk    |
+                                +---+-----+   +          +-------+----------------+
+                                          |   |
+                                          |   |
+                         +----------------+   +
+                         |                    |
+                         |                    |
+                         |      barracks      |
+                         |                    |
+                         |                    |
+                         +--------------------+
+
+    #+end_src
+
+****** Madness Events
+******** The Wrench
+
+#+begin_src fountain
+  INT. GENERATOR BAY HUB #1C1#
+
+  PC begins to make their way to the to the door, the sound of
+  boots pushing through water echoing off the walls.
+
+  PC's walk is interrupted when his boot strikes a metal
+  object. Looking down he sees a large steel wrench, rusing
+  away in the shallow water.
+
+  Overcome by some indescribable urge, You reach into the
+  murky water and retrieve the wrench. As you turn it over in
+  your hands, the urge becomes a compulsion, a compulsion to
+  get to work, its almost time for the shift change and your
+  coworkers are depending on you.
+
+  PC quickly snaps back to reality, dropping the wrench back
+  into the water, it begins to sink, sink past the floor and
+  into a deep dark abyss. Slowly glinting off your headlamp
+  before finally disappearing into the blackness.
+#+end_src
+
+******** Crack In The Wall
+
+#+begin_src fountain
+  INT. GENERATOR BAY, BARRACKS #1C2#
+
+  As PC makes their way down the row of abandoned bunks, a
+  sliver of light catches their eye as it emanates from a
+  crack in the wall.
+
+  Approaching the light, your Geiger counter begins to tick,
+  slowly at first, it quickly increases in intensity as your
+  get closer. Standing in front of it now, the red light
+  bathes your face in a warm glow. The Geiger counter now
+  making a steady shrill screech.
+
+  PC turns to the party motioning to the light, before turning
+  back around to find the light has disappeared. No glow, no
+  screeching Geiger counter, just a small crack in the cold
+  concrete.
+#+end_src
+
+******** Change Of Scenery
+
+#+begin_src fountain
+INT. GENERATOR BAY #1C3#
+
+#+end_src
+
+******** Falling Off The Catwalk
+
+#+begin_src fountain
+INT. GENERATOR BAY #1C#
+
+
+#+end_src
+
+***** 3. Bandits
+
+Gonna wing it lol
+
+***** 4. The Station
+
+This will mostly be a transition section to get the party
+into the arcade. Probably will be mostly empty and lots of
+descriptions of empty houses and displaced families.
+
+Emphasis on the overwhelming silence.
+
+This section will also include the party being sucked into
+the XCOM arcade cabinet.
+
+#+begin_src fountain
+  ## The Station
+
+  EXT. DEBROVKA STATION
+#+end_src
+
+***** 5. Vigilio, Confido
+
+The Party will fight their way through a combat encounter
+with sectoids and thinmen.
+
+They'll be transported in on big sky and dropped into an
+American city center to extract an HVT (Peter).
+
+All damage in during the combat encounter will be real and
+transfer over to their characters after the fight.
+
+Peter also will not have any knowledge of who he is until
+after he has been extracted and the party has exited the
+cabinet.
+
+The reward for completing the encounter will be an xcom pin.
+It confers =Steadfast=: Never panic as a result of getting
+wounded, allies panicking, allies getting wounded or killed,
+or the intimidation ability.
+
+Upon exist of the sky range the party will experience their
+first earthquake signaling =The Collapse=.
+
+#+begin_src fountain
+  ## Infilitration
+
+  You find yourself floating in space. Your surroundings a
+  white grid going off in all directions toward infinity.
+  Positioned directly across from one another, you feel
+  yourself confined to a sitting position, strapped in to some
+  invisible harness.
+
+  Looking down you notice the world materializing below you
+  one cell at a time, filling out each cell looks to be the
+  tops of buildings. They quickly move past you and as more
+  and more of the world materializes, you find yourself flying
+  over a vast moonlit cityscape. Only once the last patch has been
+  filled does a cabin begin to form around you
+
+  INT. SKYRANGER - NIGHT
+
+  Flooded with memories of past missions, you feel at ease
+  inside the cabin of the =Sky Ranger=. Your dauntless pilot
+  BIG SKY has pulled you out of many a hot evac, never once
+  leaving the squad behind.
+
+  Crackling over the intercom. Central Officer Bradford begins
+  his briefing.
+
+  CENTRAL OFFICE BRADFORD
+  U.N. official PETER VAN DOOR and his entourage were caught
+  in an explosion that decimated a nearby city block, and
+  we're picking up hostiles converging in on the area. We need
+  you to confirm Mr. Van Doorn is still alive, and bring him
+  back safe before the whole place is overrun.
+
+  The cabin light flashes and you are bathed in a red glow.
+  The Crew Chief lifts his hand raising two fingers.
+
+  CREW CHIEF
+  TWO MINUTES!
+
+  You release your harness, and retrieve your weapons. The
+  sounds of magazines being loaded and bolts racked fills the
+  cabin of the sky ranger.
+
+  CREW CHIEF
+  ONE MINUTE!
+
+  Standing now you grab on to railing above you and face the
+  rear of the sky ranger. The CREW CHIEF lowers the ramp,
+  rooftops rushing past before melding back into the skyline.
+
+  BIG SKY brings the sky ranger into a hard banking left turn,
+  your body leaning into the turn, as he brings the aircraft
+  in for a landing. The wheels of the sky ranger barely
+  touching the ground before the CREW CHIEF waves you down the
+  ramp.
+
+  The LIGHT FLASHES GREEN.
+
+  Sprinting down the ramp, you take up positions behind a
+  burnt out police cruiser. BIG SKY lifting off to orbit the
+  AO as quickly as he landed.
+#+end_src
+https://youtu.be/RdzpXmcLk-U?t=42
+
+Van Doorn will be located in the back corner having
+baricaded himself in an old office. He will start saying Van
+Doorn's voice lines as the party gets near.
+
+Van Doorn (Peter) Can only speak van doorn's voice lines,
+and any attempt to ask him another question will result in
+him saying another pre-canned voice line. from the following
+list.
+
+- "You the Ops team? Get over here!"
+- "Get down here! Not fair if I have all the fun."
+- "You coming down here or what?"
+- "Come on! I won't go down without a fight."
+- "Thank God you're here. I'm still breathing, but I
+  can't say the same for a lot of my boys. Let's get out
+  of here before any more of those things show up."
+- "I don't know what outfit you're from, but I haven't
+  seen gear like that before."
+- "If we get out of here alive, I just hope I get
+  another shot at these alien bastards... I owe it to my
+  men."
+- "I just wish I could have done more for my people, I
+  lost some good men."
+- "It was looking bad out there. I might not have made
+  it if you didn't show up."
+- "I owe you one... seriously... I wouldn't be here
+  without your help."
+
+****** *Post Exfil*
+On mission complete, the squad will experience the world
+dematerializing around them until they are standing in the
+white void.
+
+Once their they will see a mission complete screen and a
+floating keyboard asking them to enter a name for the high
+score board.
+
+the board will have several names all with =DNF= as their
+score. their names (if asked are)
+
+- Ian Cognito
+- Gurgglenoise
+- Nachos Del Grande
+- Crinkledink Whizzlefizz
+
+#+begin_src fountain
+  ## Exfiltration
+
+  Strapped securely into your seats aboard the =Sky Ranger=,
+  the dim lights of the cabin bring you comfort as BIG SKY
+  sets course for home.
+
+  It is in that moment, flying above that moonlit cityscape
+  that the CREW CHIEF dematerializes before your eyes, quickly
+  followed by BIG SKY. Left alone in the cabin of the =Sky
+  Ranger= it's not long before the cabin dematerializes too.
+  Strapped into an invisible harness, hurtling over rooftops,
+  all the memories of past missions, friends back at base,
+  your lives before XCOM, fade away, until all that's left is
+  ... you.
+
+  The world itself quickly follows suit, quickly replaced by a
+  gridded grey room. The harness no longer holding you in
+  place, you find yourselves standing before a massive
+  floating monitor.
+
+  CABINET
+  MISSION COMPLETE!
+
+  The words are quickly replaced by a prompt, a keyboard
+  materializing in front of the party.
+
+  CABINET
+  HIGH SCORE: 13,029
+  Enter name:
+
+  (the party enters a name for the scoreboard)
+
+  Exiting the high score screen, your vision begins to fade to
+  black. When it returns, you are standing in front of the
+  cabinet, your high score displayed prominently at the top.
+  $(random party member), to your right a small child barely
+  chest height is looking confusedly around the room.
+#+end_src
+
+Timmy will be generally confused, having no memory of the
+encounter in the cabinet.
+
+******* Do you remember what happened?
+#+begin_src fountain
+  TIMMY
+  I don't know? I remember walking through the station,
+  finding the cabinet and then PETER put the coin in the
+  cabinet and, and, and that's it...
+
+  TIMMY'S eyes go wide, he looks up at you frantically.
+
+  TIMMY
+  PETER! where's PETER!? He has to be here
+
+  TIMMY begins madly looking about the room for signs of his
+  friend. His eyes darting from you, to the cabinet, to other
+  parts of the room. It's not long before his eyes fall to the
+  frail lifeless legs of PETER peaking out from behind one of
+  the turned over cabinets.
+
+  TIMMY
+  No No NO NO NO NO NO NO NO...
+
+  He starts trying to push his way past you, to see his friend.
+#+end_src
+
+******* $(if the players try to prevent him from seeing the body)
+#+begin_src fountain
+  TIMMY
+  PLEASE! I just want, I just...
+
+  TIMMY looks up at you
+
+  TIMMY
+  He's my friend...
+
+  his tiny body desperately tries to push past you. His
+  eyes welling with tears. His attempts to push past
+  growing weaker and weaker until it's barely a meek
+  clawing. He collapses in your arms, his wails echoing off the
+  walls of the long dead station. His tears soaking the
+  cloth of your shirt.
+#+end_src
+
+******* $(if the players let him pass)
+#+begin_src fountain
+  You step aside, letting him have one last look at his friend
+  before moving on.
+
+  TIMMY scrambles past you, sprinting towards the back of the
+  arcade. He comes to a stop just behind the turned over
+  cabinet. All his frantic energy leaves his body as he stands
+  still over what's left of his friend. Several minutes go by
+  before TIMMY turns the body of his friend, having seen the
+  fruits of all their childhood misdeeds vanish before his
+  yes.
+
+  TIMMY walks up to $(random party member). Gaze cast
+  downward.
+
+  TIMMY
+  Can we go?
+#+end_src
+
+****** *After Exit*
+The party will experience the first earth quake signaling
+the coming collapse.
+
+#+begin_src fountain
+  Gathering yourselves, you turn and make your way out of the
+  arcade. As you reach the threshold of the arcade, the floor
+  beneath you begins to shake, then the walls, then the
+  ceiling. Dust falling all around you, quickly followed by
+  several loose ceiling tiles.
+
+  As quickly the tremor came, it leaves. The only sign it ever
+  having been there a few broken ceiling tiles and some extra
+  dust on the dusty floor.
+#+end_src
+
+******* Mechanics
+Combat will use my combat calculator in coordination with
+roll20
+
+*Characters*
+*Thin Man*
+Thin Men are unnervingly human-looking aliens who apparently
+*serve as infiltrators for the invaders. They have short
+*black hair and wear blue suits.
+
+- /Acid Spit/ :: Reduces =aim= by 4 and =mobility= by a quarter.
+- /Jumpy Legs/ :: Can leap to high ground.
+- /Suppression/ :: Pin an enemy unit with withering fire.
+
+*Sectoid*
+Sectoids are weak and die quickly against experienced
+soldiers, but are still dangerous early in the campaign.
+
+- Suppression :: Pin an enemy unit with withering fire.
+- Psy Panic :: Cause a unit to panic on their turn for 1-2
+  turns.
+
+*Assault*
+CQC Specialist
+
+- Run & Gun :: Allows firing or Overwatch after Dashing.
+- Close Combat :: Specialist Confers a reaction shot against
+  any enemy who closes to within 4 tiles. (Passive)
+
+*Infantry*
+Backbone of the infantry.
+
+- Light 'Em Up :: Standard shots no longer end the turn, if
+  taken as the first action.
+- Covering Fire :: Overwatch can trigger on firing actions
+  as well as movement. (Passive)
+- Suppression :: Pin an enemy unit with withering fire.
+
+*Gunner*
+Heavy weapons specialist.
+
+- Suppression :: Pin an enemy unit with withering fire.
+- Holo-Targeting :: Shooting at or suppressing enemies
+  confers +2 Aim to allies' attacks on those enemies until
+  end of turn. (Passive)
+
+*Sniper*
+Long range specialist
+
+- Squadsight :: Allows firing at targets in any allys sight
+  radius within weapon range. (Passive)
+- Low Profile :: Makes half cover grant full cover defensive
+  bonus (Passive)
+
+***** 6. Close Encounter Of A Third Kind
+
+After recovering Peter, the party will encounter [[*Aion][Aion]]
+wandering the tunnels downtrodden at their failure to stop
+this coming collapse.
+
+Before they leave the party, they're gonna enlist the party
+for help fighting the force that is drawing to destroy the
+metro/humanity.
+
+#+begin_src fountain
+  ## Close Encounter Of A Third Kind
+
+  In the distance the party hears a sound. A rock kicked.
+
+  Looking in in that direction $(random party member), you see
+  a woman meandering toward you, she seems lost, or not
+  looking to be found? She has no belongings with her, just
+  the clothes on her back. Clothes that seem distinctly clean
+  for being in the metro. The same goes for her long brown
+  hair, shining in the light of your headlamp.
+
+  The woman kicks another rock haphazardly in your direction,
+  not seeming to notice your presence. It tumbles down the
+  tracks before softly bouncing off $(random party member)'s
+  shoe.
+
+  The woman stops, looking up she and seeing the party, she
+  deflates, shoulders slumping and head falling.
+
+  AEON (female)
+  Oh... It's you...
+
+  $(random party member), taking a step forward, he picks up
+  the rock, looking it over briefly before flicking it at
+  your face.
+
+  AEON (male)
+  I guess I should have seen this coming.
+  Probability and all that...
+#+end_src
+
+****** If asked what the party did to earn AEON'S wrath
+#+begin_src fountain
+  AEON
+  (scoffing)
+  Oh, a great many things..
+
+  In the blink of an eye, the $(random pronoun) has
+  disappeared from view. You all take a step back,
+  trying process what metro trickery this is.
+
+  Vardan, startled by a sound coming from behind them.
+
+  AEON
+  BOOOO!!!!
+  (laughing)
+  (Deep sigh of satisfaction)
+
+  Walking up beside Vardan, she puts a hand on your shoulder.
+
+  AEON
+  It's the little things that make it all worth it.
+  Wouldn't you say so Vardan?
+  or...
+  or, was it MARK?
+  You know, I can't remember anymore...
+
+  Walking down the line they come up to DICK. Looking over
+  this caricature of a man.
+
+  AEON
+  Never satisfied are we?
+  Have you tried settling on just one?
+  (leaning in closer)
+  Or does the thought scare you more than you let on?
+
+  Continuing down the line, they almost pass VINCENZO
+  by without so much as a glance. Only after a few
+  feet do they seem to realize that someone was actually
+  standing there.
+
+  AEON
+  You...
+  You are something new aren't you?
+  I like new...
+
+  The woman steps closer, invading your personal space. She
+  brings her face with an inch of yours. Inspecting you as a
+  child would a new doll.
+
+  AEON
+  We're going to have a lot of fun, I can tell.
+
+  Finally coming up to RICKY PHOENIX, the man's average build
+  standing in stark relief to RICKY'S wrestler body.
+
+  AEON
+  (staring at RICKY'S right hand)
+  Given up the search haven't we?
+  Or were you just bored?
+  (laughing)
+
+  The woman begins to cackle, keeling over trying to contain
+  it. Obviously finding the whole situation unbearable funny.
+#+end_src
+
+****** If the party threatens AEON with violence
+#+begin_src fountain
+  You raise your weapon, trying to gain control over the
+  situation rapidly deteriorating before you.
+
+  AEON
+  (starting to cry)
+  Please, Please do it.
+  I beg you.
+  Let me sleep...
+
+  The woman falls to her knees in front of you, tears
+  streaming down her face. She reaches out pulling the barrel
+  closer until its resting on her forehead.
+
+  AEON
+  Please...
+#+end_src
+
+******* If the party doesn't pull the trigger
+#+begin_src fountain
+  You deflate, unable to pull the trigger. The barrel of your
+  gun slowly falling away from her forehead
+
+  AEON
+  Come on.
+  Do it.
+  (voice filling with disdain)
+  DO IT
+
+  She grabs the end of the gun forcing it back to her
+  forehead.
+
+  AEON
+  WHAT ARE YOU WAITING FOR!
+
+  She digs her head into the barrel, it leaves a mark. The
+  woman looks up at you face filled with rage at your
+  inaction.
+
+  AEON
+  Pathetic...
+
+  She slaps the gun away and stands back up.
+#+end_src
+
+******* If the party does pull the trigger
+#+begin_src fountain
+  You pull the trigger, bracing for the recoil that never
+  comes.
+
+  In your hands, a harmless wooden broom.
+
+  Standing now, the woman looks over your gun, somehow in her
+  hands now.
+
+  AEON
+  Sometimes I forget how small you are...
+
+  Barely having time to flinch, she brings the weapon to her
+  shoulder and pulls the trigger.
+
+  Your hands are halfway up to your face before you realize
+  that the only thing that came out of the barel were a few
+  delicate soap bubbles.
+
+  AEON
+  (laughing)
+
+  Satisfied with the show, she tosses your weapon back to you.
+#+end_src
+
+****** If the party continues to ask who AEON is (or enough time has passed)
+#+begin_src fountain
+  AEON
+  Me?
+
+  Bristling at the question, the woman walk up to you.
+
+  AEON
+  I am...
+
+  They snap their fingers. The person standing before you is
+  no longer that young woman with beautiful long brown hair.
+  They have been replaced by an elderly woman. Her face filled
+  with grief, having seen many a tragedy in these tunnels.
+
+  AEON
+  Whoever..
+
+  Snap! A grime covered young man, head buzzed short. The
+  straps of his plate carrier digging into his skin. His eyes
+  glazed over staring through you. How much war has this man
+  seen?
+
+  AEON
+  I want...
+
+  Snap! Another switch, but it doesn't stop with just one. A
+  new person takes their place quickly, several a second now.
+  A small child, an elderly man, a wounded stalker.
+  Every face a new life, a new story. The pace quickens. It's
+  overwhelming. So many lives, so much history flashing before
+  your eyes.
+
+  You take a step back unable to cope with what you're seeing.
+  The flickering form of humanity follows you.
+
+  AEON
+  To be.
+
+  A final snap of their fingers, before they seem to settle on
+  the body of the young woman. Turning away from you.
+  Satisfied at the display they've put on.
+#+end_src
+****** At the end of the encounter
+#+begin_src fountain
+  The world begins to violently shake. More violent than the
+  last time, pieces of concrete falling from the ceiling. You
+  scrambled out of the way of a few larger pieces.
+
+  The woman doesn't seem to care. More saddened at having to
+  stop playing than concerned about the concrete trying to
+  impale them.
+
+  The shaking subsides, several chunks of concrete littering
+  the tunnel.
+
+  AEON
+  (sighing)
+  Next time...
+
+  The woman starts meandering down the tunnel. Seemingly
+  content to resume wandering. Looking back over their
+  shoulder at you.
+
+  AEON
+  Well, I hope I wont be seeing you...
+
+  They take a another step down the tunnel before stopping.
+
+  AEON
+  Maybe...
+  With more people?
+
+  Turning around, they glace at the party.
+
+  AEON
+  I mean.
+  I't can't hurt?
+  Yea yea yea, okay.
+
+  The woman turns back around quickly making their way down
+  the tunnel, a little more purpose in their stride, before
+  fading into the darkness of the tunnel.
+
+  Alone now, a bit of moonlight shining through a new crack in
+  the ceiling, you can't help but feel you've been volunteered
+  for something.
+#+end_src
+***** 7. The First End
+
+Upon returning from the tunnels and experiencing
+increasingly violent earthquakes. The party will return
+Peter to Katya.
+
+At that moment a final, extremely energetic earthquake will
+begin leading to chaos and falling debris as the DMZ begins
+to tear apart.
+
+Before it's complete destruction the party will see and
+speak to Aion who will express excitement at seeing them
+soon, just before they are taken by the destruction of the
+earthquake.
+
+The entire party dies and we end the session.
+
+#+begin_src fountain
+  ## The First End
+
+  KATYA nearly faints at the sight of her son safe trailing
+  behind you. They lock eyes, PETER runs into his mother's
+  waiting arms.
+
+  The sight brings a smile to DELVIN'S grizzled face. He looks
+  at LARISSA, she shrugs and starts making her way to back to
+  the underground bar.
+
+  KATYA
+  THANK YOU THANK YOU THANK YOU
+
+  She goes in to hug you, but stops half way. thinking better
+  of it. The results, a weird half hearted chest pat with a
+  bit of straightening out the wrinkles in your clothes.
+  Adorable in a way only a mother can pull off.
+
+  KATYA
+  Let me get you what I owe you.
+  It was this right?
+
+  She pushes a puch full of caps to you.
+
+  KATYA
+  And, and...
+  I know I'm forgetting something.
+
+  Her eyes open wide.
+
+  KATYA
+  The gun! Thats right the gun!
+  Let me go get it, I'll be right back.
+
+  She gives PETER another deep hug before taking him by the
+  hand and running back to their humble home.
+
+  DELVIN
+  You did good.
+
+  He smiles. something tells you thats all you're going to get
+  from him.
+
+  DEVLIN
+  I'm going to make sure PETER'S not left alone while KATYA
+  gets you the rifle.
+
+  He turns around following KATYA and PETER. His shoulder's
+  unclenched in a way you haven't seen before.
+#+end_src
+
+From here the party will be given a few seconds of respite
+to enjoy the accomplishment of completing the job before the
+collapse comes.
+
+#+begin_src fountain
+  The world starts to shake. A violence you haven't
+  experienced before. It quickly surpasses the last tremor,
+  showing no signs of abating.
+
+  The people around you growing increasingly concerned as it
+  becomes clear that the tremor isn't going away. A chunk of
+  concrete falls from the ceiling crushing a nearby vendor's
+  stall. Panic sets in, people begin running in all directions
+  trying to take cover from the debris and get their loved
+  ones to safety.
+
+  In the bustle of people, one woman stands unconcerned. You
+  catch her gaze and she gestures to your right. Following her
+  gesture you see a man in a suit casually reading a
+  newspaper.
+
+  He bounces to his feet, putting the newspaper down on the
+  bench.
+
+  AEON
+  Having fun yet?
+
+  A large piece of concrete detaches from the ceiling and
+  crushes HONOLULU HAWAIIAN'S BAR into a heap of debris and
+  twisted metal.
+
+  AEON
+  I mean they're not.
+
+  A large crack begins forming underneath $(random party
+  member)'s feet.
+
+  You jump to one side as the crack in the earth opens up into
+  a crevice.
+
+  Peering over the edge reveals a great white void. A
+  bottomless unending expanse of nothing. You jump back as the
+  split in the world begins to expand consuming several
+  buildings. People begin to fall in, as it violently expands
+  through the DMZ.
+
+  AEON
+  That's my cue.
+
+  The man turns toward the expanding fracture in the world.
+  Glancing back at the party.
+
+  AEON
+  I've been thinking.
+  You can call me AEON.
+  I've always had a flare for the dramatic.
+
+  The man smiles before turning back to the void.
+
+  AEON
+  Be seeing you...
+
+  With a cavalierness in stark contrast to the crumbling
+  world around you. He jumps into the void, falling quickly
+  out of view.
+#+end_src
+
+Party should maybe roll a will save here to panic.
+
+The party can now do whatever they please, the course of the
+collapse has been set. Eventually they will fall in hurtling
+toward THE END.
+
+#+begin_src fountain
+  You tumble into the void, screaming as you fall head over
+  heals into the blinding light. The fissure you fell through
+  quickly fading from view. With no landmarks to guide you,
+  you lose all sense of direction.
+
+  In some direction, in the distance a small black spec. You
+  fixate on it, the only thing that stands apart in this
+  expanse of nothingness.
+
+  It begins to grow, slowly at first, but soon it becomes
+  noticeable. Rapidly, it starts to eat away at the white void
+  , until there's more darkness than light.
+
+  The lightness quickly shrinking into a spec, the only
+  remnant of the world you came from, until it is not.
+
+  And you are gone.
+#+end_src
+
+*** New Beginnings
+
+With the rebirth of the metro once again, the party will be
+given the opportunity to change their characters without
+removing their memories.
+
+From there they will be told by AEON that it's they day of
+the assassination of DWAYNE THE IRAQ JOHNSON and that they
+need to prevent his death, because the ensuing chaos
+accelerates the destruction of the world.
+
+Aeon has the power to transfer a PC's consciousness into
+another body which is how changing character's will be done
+between collapses.
+
+#+begin_src fountain
+  # New Beginnings
+
+  INT. NONDESCRIPT INN ROOM - MORNING
+
+  Awakening in the inn room you've called home for longer than
+  you can remember. You come to a seat on the edge of your
+  bed. The sweat that covers your body makes you think that it
+  was a nightmare, but the vivid reality of your screams
+  echoing silently into that horrible white void tell another
+  story.
+
+  Staring at the door to your room, it seems to stare back at
+  you, asking
+
+  THE DOOR
+  What story do you hope to find when you open me?
+  After all, I am a door you've opened many times before, and
+  a door you will open many times to come.
+
+  Doubt is a creeping feeling, slowly embedding itself into
+  the deepest recesses of your mind. What if, these familiar
+  walls are no longer so familiar? That maybe, one day, you
+  will close your eyes and the next time you open them you are
+  a stranger in your own home. a stranger, in your own body.
+  You look back at the door.
+
+  THE DOOR
+  (taunting you)
+  Look in the mirror.
+  and tell me.
+  what do you see?
+#+end_src
+
+**** Characters
+- Aeon
+- Dwayne
+- Jesse
+- Maria (Blue Shoes)
+
+**** Locations
+- Mayor's Office
+- Crane Control Room
+- Town Hall
+- The Great Library
+- Anomaly Field
+**** Steps
+***** Orientation
+Having established their new identities the PC's will exit
+their lodgings to find the DMZ bustling with activity. From
+the commotion they find out that its the day before DWAYNE'S
+assassination.
+
+Soon after they will be greeted by AEON who will relay to
+them what little they know about the collapse. AEON'S
+knowledge of how/why the collapses are happening is
+limited to:
+- Seem to come after certain pivotal sociological events
+- When AEON is consumed, time is brought back to one of the
+  pivot events (death of DWAYNE in this case)
+- Someone is orchestrating the events through acolytes
+- Preventing the event, prevents the collapse
+
+From this they will come to the conclusion that DWAYNE needs
+to live and they're the only ones that can stop it.
+
+#+begin_src fountain
+  ## Orientation
+
+  EXT. LOCAL INN - MORNING
+
+  You stumble your way out of the inn, still reeling from
+  the twist of fate. You are greeted by the fervent bustling
+  crowd of DMZ residents going about their day. Their faces
+  display not fear or dread, but excitement and purpose. You
+  haven't seen the DMZ this buzzing since...
+
+  $(random party member) a shoulder CRASHES into yours, you
+  lurch, so does he. Confusion, in his right hand a stack of
+  paper. You look into his face, Anger, his left hand clenches
+  into a fist. You brace for a fight. The man looks to his
+  right hand, catching a glimpse of something on the pages his
+  face softens, fist un-clenches. He looks you in the eye.
+
+  POSTER MAN
+  I am so sorry.
+  Please excuse my clumsiness.
+
+  He extends out his hand to shake yours, his apology genuine.
+
+  Satisfied, he moves past you and up to the wall behind you.
+  Pulling a roll of tape from his pocket he goes to work
+  putting up one of his posters. As he's finishing up, he
+  looks back to see you gazing, he smiles and gives you a
+  polite nod before walking off, posters in hand.
+
+  _DWAYNE!_
+
+  ONE NIGHT EVENT
+
+      AT
+
+  THE JSA
+
+  midnight tonight!
+  free admission
+#+end_src
+
+From here either the party will infer that time has somehow
+gone back to the day of DWAYNE'S death or they will ask a
+passerby what day it is. This is where AEON will enter to
+explain what they know and give them the "quest" to prevent
+DWAYNE'S murder.
+
+#+begin_src fountain
+  From across the street a gruff man sitting alone on a bench
+  catches your attention. Upon seeing you, he springs to his
+  feet, a piece of his shirt catching on a nail and ripping
+  off another patch from the already patchy garment. He
+  doesn't seem to mind.
+
+  Quickly, he make's his way over to you, practically shaking
+  with excitement.
+
+  AEON
+  (In a garish tone)
+  Hello, hello, hello
+  Welcome...
+
+  The man goes in for a quick awkward hug with each of you.
+  He smells funny.
+
+  AEON
+  Interesting times don't you think?
+  (glancing at the poster of DWAYNE)
+  A classic, but always fun to unravel.
+
+  THE PARTY
+  (Asking what they mean)
+
+  AEON
+  DWAYNE of course! Who else?
+  He's *was* dead, now he's just *soon* to be dead.
+  And that's where you come in.
+
+  THE PARTY
+  (Asking what they're supposed to be doing)
+
+  AEON
+  Well we're trying to move DWAYNE from the *soon* to
+  be dead
+  category and put him in the *not* going to be dead
+  category.
+  Otherwise...
+  (gazing off a thousand yards away)
+  You know...
+
+  THE PARTY
+  (Asking why AEON can't solve it themselves)
+
+  AEON
+  I mean, obviously I can't be in two places at once,
+  wait...
+  (Looking quizzically off to the side)
+  No, definitely can't do that.
+  I have other thing that need attending to.
+  You know, a coup or something, It always tries
+  something different.
+
+  THE PARTY
+  (Asking what "It" is)
+
+  AEON
+  I don't know, but it's definetly something. Usually it's an
+  acolyte with a bomb strapped to their chest or a gun to
+  someone's head. They ramble on about chaos, but I've never
+  gotten anything more out of them.
+
+  THE PARTY
+  (Asking how they're supposed to know what to do)
+
+  AEON
+  You were there weren't you? What do you remember about it?
+  [[If member's of the party weren't in the last season]]
+  /* At least you three/four [[if ders is present]] were. I*/
+  /* don't know what the rest of you were doing... */
+
+  THE PARTY
+  (regails some of their memories of DWAYNE'S death)
+
+  AEON
+  Well there you go!
+  (looking at their watch)
+  Look, I gotta go. You're going to do great!
+
+  AEON begins to back away from the conversation.
+
+  AEON
+  Just remember. Don't fuck it up!
+
+  AEON turns and runs into the crowd of people and you quickly
+  lose sight of them.
+#+end_src
+
+***** A Future Murder
+
+From here the party will begin to unwravel the mystery of
+DWAYNE'S assassination. The actual plot of which is:
+
+Two men and one woman have traveled from various parts of
+the metro, each carrying a piece of a sniper rifle on their
+person, smuggling it from station to station. Upon arrival
+at the DMZ they bribed a crane operator (one of few
+individuals with clearance to go up to the operating booth
+which lies in neutral territory) for his pass. Using the
+pass one of the assassins, brought the disassembled rifle up
+to the booth where it was assembled and placed on a desk in
+the middle of the room (It's intended firing position). With
+the rifle in place, the assassin zeroed the rifle and
+removed a single glass pane from the booth window that he
+would be firing through, placing the panel in one of the
+desk drawers. With the firing position established, the
+rifle was disassembled and carried back out. On the day of
+the assassination, the three assassins will make their way
+up to the operator's booth, dispatching the guard in the
+process, assemble the rifle and kill Dwayne. After killing
+him they will disassemble the rifle, giving each of the
+assassins back their case and make their way out of the DMZ
+in separate directions.
+
+The three clues for the operator room being a sniper's nest
+are:
+- Two small rectangular dustless spots on the table about 10
+  inches apart with one larger rounder dustless spot about
+  two feet back about the center line between the smaller
+  spots (imprints left by the sniper rifle stock and the
+  bipod during zeroing)
+- The cutout pane from the window facing the JSA that lines
+  up with the imprints on the desk. (firing port)
+- A single military grade rifle round rolled under one of
+  the desks (from one of the cases)
+
+Each of the assassins will have a passport on their person
+with stamps from each of the stations along their path.
+Eaching having taken different paths, one passport isn't
+enough to get a location. With all three passports, it will
+become clear that all three assassin's came from the same
+general area.
+
+#+begin_src fountain
+## A Future Murder
+#+end_src
+
+****** A Trip to the Mayor's Office
+
+The party, upon realizing they can't get into the operator's
+booth without authorization will have to speak with the
+mayor, Jesse. Jesse is an idiot and will blow them off at
+every turn either by regaling stories of his prowess at all
+things or harassing Maria. When they finally say that Dwayne
+is going to be assassinated Maria will push Jesse out and
+begin to question the party as the true power of the mayor's
+office.
+
+#+begin_src fountain
+  ### The Mayor and her Stooge
+
+  INT. MAYOR'S OFFICE SECRETARY'S OFFICE - MIDDAY
+
+  You enter into a secretary's office, it's sleek wood
+  paneling and finely varnished furniture separate it from
+  other places in the DMZ. Along the left wall, a row of
+  cushioned chair leading toward the back and butting up
+  against two wood sliding doors with large frosted glass
+  windows. The blurry outline of a man is present in the
+  glass. Tucked into the right corner a secretary is typing
+  away at her workstation. The window blinds behind her are
+  open, the bustle of the DMZ visible.
+
+  THE PARTY
+  (Makes there way into the room)
+
+  MARIA
+  (Glancing up from her computer)
+  Hello, how can I help you?
+
+  THE PARTY
+  (Asking to see the mayor)
+
+  MARIA looks through a calendar on her desk.
+
+  MARIA
+  I am so sorry, It seems that the mayor is busy at the
+  moment. Can I make an appointment for you in, say, a few
+  weeks?
+
+  MARIA looks up at you expectantly.
+
+  From behind the doors to the office you hear a voice yell
+  out.
+
+  MAYOR JESSE
+  (excitedly)
+  OOOOOOHHH, so close!
+  Blue Shoes! That was, like, one of the best ones yet!
+  You shoulda seen it!
+
+  The figure behind the glass excitedly makes his way to the
+  door, sliding it open just enough to stick his head through.
+
+  MAYOR JESSE
+  BLUE SHOES! DID YOU HEAR ME!
+  (Spotting the party)
+  Oh, hey man.
+
+  MARIA sighs, looking back at the party.
+
+  MARIA
+  Let me introduce you...
+
+  grabbing a notebook and some folders, she leads you to the
+  doors. Sliding them open wide.
+
+  MARIA
+  Mr. Mayor, These gentlemen are here to speak
+  with you.
+
+  MARIA steps to the side gesturing you inside. Sliding the
+  doors closed behind you, she takes a seat in the corner of
+  JESSE'S office and begins taking notes. Blinds shut tight,
+  the only light in the office is the warm glow of the
+  incandescent light in the softly spinning ceiling fan.
+
+  MAYOR JESSE
+  You came to see, me? I mean like ya you did, I would come
+  see me too! I'm, like, the best, man.
+  Have you ever, like, played tiny golf? It's like regular
+  golf, except, you know, tiny.
+  Here, here, let me show ya.
+
+  JESSE reaches out, grabbing $(random party member) and
+  guiding them to the right side of his office. Where he has
+  an overturned mug in one corner as a makeshift putting
+  green. A dozen or more golf balls have pilled up in the
+  corner having veered wildly off course.
+
+  MAYOR JESSE
+  (Lining up his putter)
+  I'm like the best at it man. Like hole in ones every time.
+  (Standing back)
+  You know, like, I played a whole eight course game with that
+  commie bastard ZALINSKY. I won of course, like, why wouldn't
+  I.
+  (Lining up his putter)
+  This is obviously way too difficult for a beginner such as
+  yourself.
+  (Standing back)
+  Actually why don't you putt, and you'll see how hard it is
+  and how, like, amazing I am.
+
+  He hands you the putter and stands to the side, arms crossed
+  and a smug expression on his face.
+
+  @$(selected party member)
+  (sinks/doesn't sink the putt)
+
+  MAYOR JESSE
+  /* If pc sinks the putt */
+  That's just like beginner's luck man, here watch a pro.
+  /* if the pc doesn't sink the putt */
+  See man, I'm just like the best, here watch a pro.
+
+  JESSE hardly lines up his putter before clumsily whacking the
+  golf ball hard into the corner, missing the mug completely.
+
+  MAYOR JESSE
+  You're like messing up my vibe standing so close to me, man.
+  I can't putt like this, with you like, breathin down my
+  neck, man.
+
+  Visibly frustrated JESSE collapses into his office chair.
+
+  THE PARTY
+  (Mentioning MARIA in any way)
+
+  MAYOR JESSE
+  OH, Blue Shoes! She's like the best man.
+
+  MARIA winces at the name. JESSE leans in attempting to whisper
+  to you.
+
+  MAYOR JESSE
+  Isn't she like, soo hot, man. I mean, like, look at her.
+
+  JESSE'S gaze makes its way all the way down MARIA'S body,
+  until settling on her shoes, his mind salivating at the
+  thought. Her disgust overt to everyone but JESSE.
+
+  MAYOR JESSE
+  She's, like, totally, my girlfriend man.
+
+  MARIA gives JESSE an aggressively fake smile and rolls her
+  eyes.
+
+  MAYOR JESSE
+  That's how I know she like, likes me man.
+
+  THE PARTY
+  (Mentioning the assassination of DWAYNE)
+
+  MARIA stops taking notes, and for a moment the room is
+  silent. The silence is broken by JESSE scoffing in disbelief
+  at what he's hearing.
+
+  MAYOR JESSE
+  That's like, just your opinion man. Like, that's the dumbest
+  thing I have *ever* heard. You come in hear, into my home,
+  my humble abode, and accuse me of, like, not being a good
+  mayor, man?
+
+  He spreads his arms wide, putter still in hand.
+
+  MAYOR JESSE
+  You know what man, I think, like, you're like a saboteur or
+  something. Come to ruin me, that's totally like treason man.
+
+  JESSE'S rant is interrupted by MARIA, appearing by his side,
+  a loose stack of papers in hand. She puts a gentle hand on
+  his shoulder, handing him the stack of papers with a well
+  practiced smile. He deflates at her touch.
+
+  MARIA
+  JESSE, don't you think you should be practicing for your
+  ,*big* speech before the event tonight. Everyone's going to
+  love it. Why don't you go practice in front of the mirror? I
+  know how much you love that.
+
+  MAYOR JESSE
+  You know what, you're right BLUE SHOES, these people, like,
+  don't deserve my attention. They're just like posers man.
+
+  She begins to lead JESSE out of the office, nodding along
+  with him, slipping $(random party member) a serious look.
+  She gently nudges JESSE out of the office, giving him a
+  another deft smile. JESSE lets out another stream of
+  expletives at you before MARIA slides the doors closed.
+  Letting out a sigh of relief, she walks back around the
+  desk, leaning against it with both hands. The demure
+  secretary has dissapeared and something else has taken its
+  place
+
+  MARIA
+  What the fuck did you just drop at my doorstep?
+
+  THE PARTY
+  (Reiterating that DWAYNE will be assassinated)
+
+  MARIA
+  I need you to tell me *exactly* how you know this is going
+  to happen, and it better be pretty damn convincing.
+
+  THE PARTY
+  (Explaining how they know, roll charisma)
+
+  MARIA
+  Fuck...
+
+  She takes a seat in JESSE'S chair, leaning her head against
+  clenched hands. She takes a break, collecting herself.
+
+  MARIA
+  Alright, I need evidence. Getting the event shut down is
+  above even me, but if you can get me who, when, and how. I
+  can *maybe* convince JESSE and we can prevent this disaster.
+  What do you need from me?
+
+  THE PARTY
+  (Asking for access to the operator's room)
+
+  MARIA
+  Done.
+
+  She picks up the phone dialing as she does so. Through the
+  line you can hear the faint voice of a man.
+
+  MARIA
+  MARTIN, I have a few gentlemen hear that need access to the
+  operator's booth.
+  (beat)
+  Yes, on my behalf. Ask for...
+
+  Pulling her face away from the phone., she snaps her fingers
+  at the party.
+
+  MARIA
+  One of your names...
+
+  THE PARTY
+  (giving one of their names)
+
+  MARIA
+  $(name given).
+  (beat)
+  Wonderful, Thank you M...
+  (beat)
+  Should be same time this Sunday. Wait..
+  You're not still mad DAVIE took all your money are you?
+  (beat)
+  We *told* you, you can't out bluff DAVIE, MARTIN.
+
+  You can hear the sound of a second man laughing in the
+  background of the phone call. A wry smile forms on MARIA'S
+  face, the first genuine smile you've seen from her.
+
+  MARIA
+  Look, MARTIN, I have to go.
+  Make sure they get what they need.
+  Thank you.
+
+  She hangs up the phone, looking back at the party.
+
+  MARIA
+  You're good to go.
+  MARTIN and CORIQ will get you up there.
+  Do **NOT**, go past the booth into red territory. I don't
+  want another mess to clean up.
+  Anything else?
+
+  THE PARTY
+  (Asking about the BLUE SHOES name)
+
+  Her face contorts at the mention of the name.
+
+  MARIA
+  I made the mistake of wearing a pair of blue shoes on my
+  first day. JESSE seems to have taken a liking to them. Shame
+  really, I liked those shoes...
+
+  Her gaze drifts, lost in thought.
+
+  /*
+  If the party asks what happened to them
+
+  MARIA
+  I burned them.
+
+  She says matter-of-factly.
+  ,*/
+
+  VINCENZO
+  (Being a chauvinist to MARIA)
+
+  MARIA'S face is filled with disdain. She looks to the rest
+  of the party.
+
+  MARIA
+  Muzzle your mutt before I do it for you.
+
+  VINCENZO
+  (Continuing to be a chauvinist to MARIA)
+
+  As you continue your misogynistic diatribe, MARIA quietly
+  picks up her phone, speaking a few words to someone, her 
+  words inaudible over your ranting.
+
+  It's not a minute later that the doors slide open and in
+  steps a hulking behemoth of a man. VINCENZO barely
+  reaching his chin. Closing the door behind him.
+
+  CHARLIE
+  Ms. MARIA.
+
+  MARIA
+  CHARLIE.
+
+  MARIA darts her eyes to VINCENZO. Action is immediate.
+  CHARLIE grabs VINCENZO'S head with one hand, his wrist in
+  the other before slamming his head hard against the desk,
+  breaking VINCENZO'S nose.
+
+  MARIA walks around the table, taking a half seat against the
+  table next to VINCENZO'S head, facing CHARLIE.
+
+  MARIA
+  How's Janine, CHARLIE?
+
+  CHARLIE
+  Oh wonderful, Ms. MARIA.
+  She wanted me to thank you for the skirt you got her.
+
+  MARIA
+  Well, she can thank me herself over dinner.
+  Saturday at my place.
+  I'll get you a sitter.
+
+  CHARLIE
+  We would love that, Ms. MARIA.
+
+  They give each other a warm smile, while VINCENZO struggles
+  helplessly under CHARLIE'S iron grip.
+
+  MARIA
+  Do you think he's learned his lesson?
+
+  CHARLIE leans in next to VINCENZO, contorting his wrist to
+  it's breaking point, the pain excruciating.
+
+  CHARLIE
+  Have you?
+
+  VINCENZO
+  (Agreeing)
+
+  MARIA
+  Thank you CHARLIE.
+
+  CHARLIE releases VICENZO from his grip, and quietly slips
+  out of the office. MARIA sits back in the office chair.
+
+  THE PARTY
+  (Asking why JESSE is kept around)
+
+  MARIA
+  He's the mayor. At least on paper.
+
+  THE PARTY
+  (Asking what she does)
+
+  MARIA
+  I keep things moving.
+  A few more food stamps, a bit more housing assistance
+  Small things, incremental, but they add up.
+  (beat)
+  Plus, a man like JESSE can open doors that are normally
+  closed to me. As long as you handle his more...
+  grating...
+  behavior.
+
+  THE PARTY
+  (Making the gesture to leave)
+
+  MARIA
+  Report back when you find out whats going on. I'll see what
+  I can do about increasing DWAYNE'S security detail in the meantime.
+#+end_src
+
+***** Finding the Source
+***** Preparation
+***** Confrontation

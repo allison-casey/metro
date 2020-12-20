@@ -1,0 +1,212 @@
+* Picking Up The Pieces
+** Dialog
+*** The Two Faces of Janus
+This sequence will a two week time skip to when PLUCK is
+getting his bandages removed to reveal that his entire right
+side of his face is badly burned and much of the skin has
+been grafted with parts of NEVADA NEVILLE'S face.
+
+#+begin_src fountain
+EXT. SEMYONOVSKAYA MAIN STREET - DAY - TWO WEEKS LATER
+The hustle and bustle of the station and it's people fill
+the main street of SEMYONOVSKAYA. Vendors hawk their goods,
+mothers accost their sons from apartment
+windows, and a patrolman chases after a teenage vagrant and
+his stolen bottle of liquer.
+
+It all seems almost quaint.
+
+In the two weeks since the month of arachnid terror came to
+and end with it's explosive finale, life has moved on. Most
+preferring to try and forget all that was lost in favour of
+the blanket of normalcy that has returned to the station.
+
+Everywhere, except, the cramped hospital bedroom where a
+small child sits upright in his bed, head encased in
+bandages. Surrounded by family and friends that have sat,
+frozen in time, waiting for this moment.
+
+INT. HOSPITAL ROOM - DAY
+PLUCK sits in the center of the room, illuminated by a
+single overhead light. On his right, MIKEY grips tightly onto
+plucks hand offering what little comfort he can. On his
+left stands a doctor, surgical scissors in hand.
+
+DOCTOR
+(placing a hand on PLUCK'S shoulder)
+Are you ready son?
+
+He reaches behind PLUCK'S head and snips a piece of fabric
+and begins to unwind the bandages. Layer after layer falls
+away under his hands.
+
+PLUCK, begins to see light above him through the bandages.
+The light getting brighter and more defined as each layer is
+removed. The DOCTOR begins to slowly unwrap the final layer,
+revealing PLUCK'S unblemished right eye, but he hesitates,
+stopping at the bridge of your noes, scar tissue peaking out
+from under the bandage.
+
+DOCTOR
+(looking into PLUCK'S eye)
+Please understand PLUCK, we recovered all the skin we could.
+Some, however, had to be grafted. Your body will acclimate,
+in time, but it will never be the same. Do you understand?
+
+With a sharp intake of breath and a hesitant hand, he
+continues unwrapping the bandages.
+
+MIKEY, scar tissue mars the left side of PLUCK'S face, but
+there something else. The skin, its, older, more sun
+weathered than PLUCK'S youthful complexion. Bandages fall
+away, quicker now, and the more you see, MIKEY, the less you
+understand. It's PLUCK but it's not. The final bandage falls
+away and PLUCK looks into your eyes smiling wide with joy.
+You feel it before you understand it, the shock of
+recognition, in PLUCK'S smile you see his mocking, snearing,
+laugh. In his you see the face, of NEVADA NEVILLE.
+#+end_src
+
+*** Same Shit Different Day
+Casey's character will wake up in the body of DR. FOXY
+OXFORD who will have, in the minds of all non-party members,
+always been a member of the Spartans, having recently
+returned from some undisclosed expedition. If any pc pushes
+npc's about what exactly it was, they will get confused and
+change the subject.
+
+Casey can look into the notes on his desk to realize that he
+has been trilaterate the origin of the quakes. From the data
+he can discern that quakes happen periodically every 102
+hours with a magnitude of approximately 4 to 4.5 and they
+haven't increased in intensity since they started about a
+week and a half ago.
+
+#+begin_src fountain
+INT. INN ROOM - MORNING
+You awake with a start, clawing at your chest for breath.
+Your skin is on fire, the smell of burning flesh filling
+your senses. You tear open your shirt, but nothing is amiss,
+your skin is as it should be, and soon the burning fades and
+and soon so does the feeling of grenade pins digging into
+your fingers, and all that's left is your sweat beading onto
+the floor from where you sit at the edge of your bed.
+
+You make your way over to the dresser gathering your things
+for the day. Bones creaking and muscles stiff, your feet
+carry you knowingly through the DMZ to the entrance of the
+Spartan HQ, the two guards stop their conversation, one
+giving you a warm smile, the other tips his service cap.
+
+GUARD
+Morning doc.
+
+They let you pass and return to their conversation. You
+navigate the maze of subteranean hallways with intention
+until you reach the war room. MARIA spots you out of the
+corner of her eye from her commanding spot in the center of
+the room. She makes her way through the bustle, extending
+you a friendly smile and a firm handshake.
+
+MARIA
+Good morning Doctor O...
+
+Her greeting is cut short as the world begins to
+shake violently, staff grasp onto their work and for a brief
+moment, the war room is quiet. As quickly as it came, the
+shaking is gone, and the war room returns to its usual
+bustle.
+
+MARIA
+Looks like your right on time.
+Come on, some new seismograph data came in last night.
+Let me walk you over.
+
+She wisks you over to a desk towards the back of the room,
+plopping you into the waiting chair. That's when you see it,
+your face in the reflection of the blacked out computer
+monitor, something new, something different or something
+that's always been.
+
+(ask casey what he sees)
+
+Prominetly displayed just to the side of the monitor, a
+copper name plate sits engraved with a name, your name.
+
+(ask casey what name he sees)
+
+MARIA waves her hand, and a secretary appears dropping a pile of seismograph data onto your desk.
+
+MARIA
+Let me know if you find anything in this last batch of readings.
+And Doctor, it's been great having you back.
+
+With that, she's wisked away by several secretaries vying for her attention. Leaving you alone, at your desk.
+#+end_src
+
+*** The Library Will Have It's Due
+Since the party has failed to return their books on time,
+THE LIBRARIAN, will have hunted the party down and will be
+waiting for them wherever the party surfaces to take back
+his books as well as collect the overdue fine (something
+precious from all of them, unless they can talk out of it).
+Pluck will be exempted due to having his face taken already.
+
+THE LIBRARIAN will sign to LARISSA who will then translate
+for the rest of the party. While the party mulls over the
+fine imposed by THE LIBRARIAN for their overdue book
+rentals, LARISSA will tell it of what happened to PLUCK
+
+If they convince THE LIBRARIAN that they need the gear to
+fight the THE END and it's acolytes, THE LIBRARIAN will give
+the party, /The Sword of the Revolution/
+
+*** That's One Pissed Off Planeswalker
+Having let two stations fall into civil war, AEON, will be
+royally pissed at the party, accosting them for their
+failure.
+
+*** Red Letter Day
+**** Larissa Suggests Badger
+While going over the possible routes down to X18, LARISSA
+will suggest having BADGER smuggle the party through the
+/Red Line/ and into /Fascist/ territory.
+
+#+begin_src fountain
+INT. SPARTAN HQ - DAY
+
+LARISSA
+What about BADGER?
+He could get us through the RED LINE no problem.
+
+LARISSA gestures toward PAVELETSKAYA and looks toward MARIA
+and DELVIN.
+
+The two at each other incredulously before looking back at
+LARISSA, MARIA breaking the silence.
+
+MARIA
+LARISSA, he *shot* you...
+
+LARISSA
+It was *one* time, and I shot him back
+It was an equal opportunity shooting
+I'm not mad about it
+
+MARIA, glares at her.
+
+LARISSA
+What...
+You don't think he's still mad, right?
+(beat)
+You think he's still mad
+(sigh)
+
+MARIA turns back to the party
+
+MARIA
+I'll leave the option up to you
+You all seem to...
+(eyeing the party)
+Figure it out
+#+end_src

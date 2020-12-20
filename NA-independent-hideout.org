@@ -1,0 +1,22 @@
+* Independent Hideout
+- Reward :: 600 without killing, 300 with  
+- Urgent? :: false
+An independent stalker faction will have set up a way
+station directly over a Spartan safe house hidden in the
+basement. Maria needs them gone, preferable without killing
+them. She can't tell them to move without giving away the
+location of the safe house. 
+
+The stalkers at this way station will be reluctant to move
+as the location is an ideal stopping point for artifact
+hunting in neighboring territory, while also being a
+relatively location less mutant and fascit/bandit activity.
+
+There is no set way of getting the stalker's to leave the
+way station, that is up to the player to come up with. 
+
+** possible solutions
+- Lure several monsters to the location to scare them off
+- Pretend the place his haunted
+- Kill them :(
+- Stink them out with sewer sludge

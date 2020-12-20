@@ -1,0 +1,395 @@
+* Bug Hunt
+- Reward :: 200, Spider Queen Jewel Artifact (optional)
+- Location :: Semyonovskaya
+Spider bug nest has moved in next to a Spartan friendly
+station and have started picking off residents and travelers
+in the night.
+
+The location of the nest is unknown at the start of the
+mission, but can be found by following a spiderbug back to
+its nest during the night (in whatever manner that happens
+in). The spiderbug will crawl into an airduct that the party
+can chase it until the airduct meets a vertical shaft that
+leads to the surface. The nest will be located in a set of
+maintenance rooms located just under the surface and
+accessible from the shaft. The party will have to find a way
+to climb the sheft or rapel down from the surface.
+
+The nest itself, while inside several maintenance rooms,
+will be almost unrecognizable under the wall to wall spider
+webs.
+
+** Station
+The station will be in lock down by the time the party
+arrives, with most the surviving townsfolk locked behind
+barricaded doors at night. The captain (Captain Lupo) will
+meet the party and give them a rundown of the situation.
+
+*** Locations
+- /The RiffRaff/ :: local bar
+- /The Stitch and Snip/ :: clothes and hair
+- /Strong Arms/ :: basic gun store
+
+** Dialogue
+*** I Guess Introductions Are In Order
+#+begin_src fountain
+INT. SEMYONOVSKAYA TRAINYARD - LATE AFTERNOON
+
+Arriving at the entrance of SEMYONOVSKAYA, you see the
+standard metro fortifaction covered and boarded up with scraps of
+metal, wood, and anything that wasn't tied
+down. Almost every window and gap has been sealed off, spiderbug
+limbs and accompanying viscera line the last twenty meters
+of the tunnel up to the entrance.
+
+Out of one of the few remaining embrasures a guard spots you
+and quickly relays your arrival to someone unseen.
+
+After a minute or two, a small gate opens up and a guard
+quickly ushers you inside.
+
+INT. SEMYONOVSKAYA PLATFORM - LATE AFTERNNOON
+You find yourselves standing on the tracks just inside the
+station trainyard, several armed guards standing above you
+looking you over uneasily. The tension is cut when a stocky
+man in a crisp military uniform enters the trainyard quickly
+surveing the newcomers.
+
+CAPTAIN LUPO
+At east.
+It seems the calvary has arrived...
+
+The guards visibly unclench and return to their stations.
+
+The officer's eyes land on Larissa at the back of the group.
+
+CAPTAIN LUPO
+Corpral
+(Giving a crisp salute)
+
+LARISSA'S eyes snap to the officer
+
+LARISSA
+SARG!
+(Returning the salute)
+
+CAPTAIN LUPO
+Well it's captain now, but good to see you too.
+
+LARISSA
+Whatever you say sarge.
+(Giving him a wink)
+
+CAPTAIN LUPO
+Come on up off the tracks and I'll give your squad the rundown.
+#+end_src
+
+*** Whats The Sitch
+ #+begin_src fountain
+INT. SEMYONOVSKAYA - LATE AFTERNNOON
+
+CAPTAIN LUPO
+About two weeks ago we started getting probing attacks along
+our border. Mostly hatchlings, easy enough to deal with but
+they found the gaps they were looking for and soon it wasn't
+just hatchlings anymore.
+
+
+CAPTAIN LUPO
+Every hole we plugged up they found another and I started
+losing men faster than we could replace. Now I'm down to six
+dedicated guardsmen, and the rest are in their homes at
+night protecting their families.
+(gesturing at the surrounding houses)
+
+Every building you see along the walls is boarded up or
+being patched by locals. Part time guardsmen give CAPTAIN
+LUPO a hastily salute before returning to patch up their
+family's house.
+
+
+CAPTAIN LUPO
+We have a strict curfew starting at 7PM. We guard the walls
+as long as we can, then pull back and do our base to ride it
+out until morning. The floodlights help, but we can't run
+them all night.
+
+CAPTAIN LUPO stops in front of a two story building creeping up the left wall.
+
+CAPTAIN LUPO
+Home sweet home
+(turning to the party)
+We have two hours until curfew. If you'd like to take a look
+around I urge you to do it now.
+Meet me back here when you're ready
+ #+end_src
+*** Into the Mouth of Evil
+The maintenance shaft the party chased the spider hatchling
+into is roughly five floors in height, with the tunnel the
+hatchling entered about four stories up. Captain Lupo will
+be willing to give them climbing gear and one of their
+portable flood lights. The flood light will only work for
+two rounds total and hitting an eight tile 45 degree cone if
+the party manages to winch it up to the mouth of the spider
+den. Hitting a spiderbug with the floodlight will instantly
+stun it for that round.
+
+Assuming the party can handle the The Queen, they will be
+welcomed back to the station as conquering heroes. Larissa
+will make an offhand comment about the cage match to the
+party in front of Captain Lupo who will become intimately
+interested, as he and Larissa were some of the best
+wrestlers in the company, Lupo teaching Larissa most of what
+she knows. He will invite the party to have it at his
+station as his people could use the break and he'd never
+give up the chance to see an honest to god cage match.
+
+** Combat
+Spiderbugs are deathly weak to light and fire and if a
+suitable method can be found to burn them out, can be
+avoided entirely.
+
+*** Hatchlings
+Week but numerous hatchlings die in mostly one hit but can
+become a problem in numbers.
+
+#+begin_src yaml :tangle ./assets/templates/spider.hatchling.yaml
+  id: spider.hatchling
+  name: Spider Hatchling
+  health: 15
+  dt: 0
+  ap: 2
+  faction: spider
+  type: character
+  passives:
+    - id: weak.fire
+      name: Weak to Fire
+      description: >-
+          Lighting this unit on fire or 1AP, +14 PER Check will
+          cause this unit to flip onto its belly for a round
+          exposing an unarmored, instant crit, weak point
+  abilities:
+    - id: bite
+      name: Bite
+      description: Basic bite attack
+      ap: 1
+      accuracy: 1d20
+      damage: 5
+#+end_src
+
+
+*** Warriors
+Otherwise, players can try to track them with a light from
+their headlamp/flashlight for 1AP and if they beat a 14 the
+spiderbug will flip over on its belly revealing an unarmored
+spot that can be shot for an instant crit. Failure on the
+light check will force the spiderbug to retreat as a free action.
+
+#+begin_src yaml :tangle ./assets/templates/spider.warrior.yaml
+  id: spider.warrior
+  name: Spider Warrior
+  health: 50
+  dt: 12
+  ap: 2
+  faction: spider
+  type: character
+  passives:
+    - id: carapace
+      name: Carapace
+      description: >-
+        Tough outer shell reducing incoming projectile attacks
+    - id: weak.fire
+      name: Weak to Fire
+      description: >-
+          Lighting this unit on fire or 1AP, +14 PER Check will
+          cause this unit to flip onto its belly for a round
+          exposing an unarmored, instant crit, weak point
+  abilities:
+    - id: bite
+      name: Bite
+      description: Basic bite attack
+      ap: 1
+      accuracy: 1d20 + 3
+      damage: 5 + 2d6
+#+end_src
+
+*** The Queen
+ An homage to the xenomorph queen from /Aliens/, the Spider
+ Queen will be a hulking behemoth of a creature merged with
+ the wall of the room surrounded by spider eggs. Killing the
+ spiders in her room will cause her to fly into a rage and
+ tear herself from the wall.
+
+ #+begin_src yaml :tangle ./assets/templates/spider.queen.yaml
+    id: spider.queen
+    name: Spider Queen
+    interleaved?: true
+    health: 200
+    ap: 3
+    dt: 5
+    faction: spider
+    type: character
+    description: >-
+      Matriarch of a spider nest, responsible for laying eggs
+      and, if times call for it, defense of the nest. She is
+      extremely powerful with a focus on area denial and ads
+    passives:
+      - id: carapace
+        name: Carapace
+        description: >-
+          Tough outer shell reducing incoming projectile attacks
+      - id: weakness.fire
+        name: Weak to Fire
+        description: >-
+          Weakness to fire or light, lighting her on fire will
+          result in her being stunned for a turn. Shining
+          multiple lights on her (3AP worth) will result in the
+          same thing.
+    abilities:
+      - id: protect-the-queen
+        name: Protect the Queen!
+        description: >-
+          Let out a cry for help causing nearby
+          eggs to hatch prematurely and spawn spider baby ads.
+          Spawn 1d4 spiderbug hatchlings
+        cooldown: 5
+        ap: 3
+        damage: 1d4
+      - id: acid-spit
+        name: Acid Spit
+        description: >-
+          Projectile spit that causes caustic
+          damage over time (1d20 through 5 DT over 2 turns)
+        cooldown: 3
+        duration: 2
+        accuracy: 1d20 + 2
+        damage: 1d20
+        ap: 2
+      - id: sting
+        name: Sting
+        description: >-
+          Pierce the target with her scorpion
+          tail stinger, causing initial pierce damage (10 + 2d6)
+          and caustic damage over time (1d20 through armor 2 turns)
+        cooldown: 4
+        ap: 2
+        accuracy: 1d20 + 3
+        damage: 10 + 1d6
+      - id: tail-sweep
+        name: Tail Sweep
+        description: >-
+          Spin in a circle with her tail out
+          knocking all enemies within 4 tiles back for
+        cooldown: 3
+        ap: 3
+        accuracy: 1d20 + 2
+        damage: 5 + 1d6
+      - id: stab
+        name: Stab
+        description: >-
+          Stab target with one of her many legs. Reach weapon two tiles
+        cooldown: 0
+        ap: 1
+        accuracy: 1d20 + 3
+        damage: 10 + 3d6
+ #+end_src
+
+** After Action Report
+*** Session One
+**** Recap
+The party picked up Andrej who had been camping out in the
+Spartan HQ after making his way back from the library with
+a *A Short, Complete History of Poland* a massive tome he
+had been using to try to, unsuccessfully, find his way back
+to Poland.
+
+While they were at the Spartan HQ the party was given
+*Talisman of the Frontier* by Larissa who's frontier days
+are over and its tradition to pass it on to the next
+frontiersman. The talisman gives the wearer command (may
+make this inspire since Andrej is using it and he already
+has command).
+
+For their actions in killing King and scattering the bandit
+forces in the area, Maria has decided to bring the party on
+as official Spartans. Granting them access to Spartan
+facilities and higher level gear as well as discounts on
+*some* items. While getting their patches sewn on at the
+armor, Ricky and Mikey California start having a nude
+flexing contest in the hallway, turning a lighthearted
+hazing ritual into a grandiose display of masculinity. One
+Mikey quickly loses. It's during this foray into toxic
+masculinity that Andrej is introduced to the sex doll, whom
+he promptly becomes smitten with over her purported
+royalness. The fuming Pluck begins to spar with Mikey which
+prompts mocking gibes from Nevada. Mikey explodes in anger
+which Ricky takes as an invite to organize a "Hell in a
+Cell" cage match between the two. The situation quickly gets
+out of had as Ricky's hyping begins to excite the HQ staff
+in the cafeteria, until Maria comes to regain control of the
+situation.
+
+Geared up with weapons and ammo (and picnic supplies if
+you're Pluck), the party goes to the bounty board to choose
+their first job as Spartans. Mikey, still upset over losing
+the flexing contest to Ricky and forlorn over his
+deteriorating relationship to "his boy" Pluck, splits the
+party over which job to take. With the party evenly split
+over which job to take, the deciding vote comes down to
+the sex doll, who promptly chooses the Bug Hunt during an
+aside with Nevada Nevile. With new purpose, the party hops
+on a supply train that will take them most of the way to the
+station.
+**** Lessons Learned
+1. Should have made the chasing after the bug sequence
+   interactive somehow. Maybe with DEX checks to vault over
+   obstacles in their way?
+2. If I'm going to have planned dialogue it needs to be
+   actually planned, not half ass'd otherwise it just gets
+   confusing.
+3. The party is more than capable of carrying scenes
+   themselves. This session went well in that regard. Keep
+   emphasizing and adding to their emotions and plot motives
+   and get out of their way when they are on a roll.
+4. Should have been more lenient with pluck crawling through
+   the vents. If he wanted to continue he should have been
+   able to which could have gotten him an encounter with a
+   spiderbug in the cramped confines of the air duct.
+*** Session Two
+**** Recap
+They killed the bugs and then had a wicked awesome wrestling
+match. I should probably re-write this recap at some point
+**** Lessons Learned
+*** Session Three
+**** Recap
+*** Session Four
+**** Recap
+We opened to the thumping of Larissa giving Mikey
+California chest compressions to bring him back form the
+brink of death. Pluck reunites with Mikey with both a
+new found respect for him, but also with the knowledge that
+he's royalty. The party quickly gets to work patching up
+Mikey and constructing a stretcher for him. In the
+background, Nevada Neville awakes, alone in his own
+excrement, just as beat up as Mikey, but disregarded like
+the filth he lies in. Adamant of his victory over Mikey, he
+refuses to shake his hand in reconciliation, further
+distancing him from the rest of the party. The party picks
+up Mikey on his stretcher and slings Neville over Rickey's
+shoulder and make their way back into town.
+
+The party is met in town by cautious townsfolk peaking their
+heads from their safe havens. Captain Lupo emerges from the
+station house and confirms with a ruminative Larissa and an
+tone deaf Pluck that the Spider Queen is dead and the town
+is safe from further night terrors. At the realization that
+the party has ended their weeks long dread, the station
+bursts into an improvised block party, taking to the streets
+the celebrate. The party forewent with the revelries and
+brought the wounded Mickey and Neville into the station
+house to get proper treatment by the station doctor.
+
+Larissa and Andrei placed Mickey gently on a table in the
+center of the station, tending to his every need. Neville,
+however, was dumped unceremoniously on a table, in the dark,
+at the back of the room, to be treated last.

@@ -1,0 +1,156 @@
+* Courtyard
+
+The firefight between a group of acolytes and the party is a
+pitched battle taking place after the party turns down the
+offer to join The End.
+
+** Combat
+*** Phase One
+ Phase one will be a traditional firefight against the acolytes
+
+**** Acolytes
+ Six person squad composed of:
+ - 1 Dozer :: An ultra heavy chain gun wielding heavy class
+   with the ability to shrug off most attacks to spin up his
+   chain gun every turn to greater effect.
+   - State :: 1
+   - Attributes:
+     - Huge :: Cannot take cover
+     - Spin Up :: Increase the speed of the chain gun by one
+       which increases the amount of shots fired by one.
+       (removed after taking headshot or staggered by
+       explosives)
+
+ - 1 Assassins :: High mobility parkour focused melee users
+   that enter a flow state for increased mobility and special
+   takedowns. Flow::1
+   - Attributes
+     - Flow :: Flow state grants disadvantage to attackers
+       while in it. Increases by one up to three every round
+       in it. Successful shots on remove one flow. Explosive
+       hits remove all flow. Movement is limited to 45 degree
+       cone for each ap or flow is lost unless using an
+       environmental reversal.
+       - Flow One :: Grants auto pass for dex movement checks
+         and +3 to dodge, +1 total movement range
+       - Flow Two :: Grants disadvantage on incoming attacks,
+         +2 total movement range
+       - Flow Three :: - 7 to all incoming attacks, +3
+         total movement range
+
+ - 1 Officer :: Support squad leader roll giving buffs to the
+   rest of the squad
+   - Attributes ::
+     - Leader :: Allies get moral boost while alive and a
+       moral shock when killed.
+     - Mark Target :: Allies gain advantage on attacks
+       against marked target
+     - Teamwork :: Trade 1AP with any ally in sight
+
+ - 1 Medic :: Support infantry class specializing in
+   defensive buffs
+   - Quick Heal :: Healing after moving is free
+   - Smoke :: Smoke Grenades grant disadvantage on incoming attacks
+   - Cover Target :: Take a reaction shot against covered
+     target on any action except  reloading, hunkering, or
+     using a non offensive item.
+
+*** Phase Two
+ The last acolyte to be killed will be resurrected by The End
+ who will take control of the corpse with various buffs
+ called a *Vessel*.
+
+ - Stats
+   - Health :: 150? Play by ear by how fight is going
+
+ - Attributes
+   - Buffed :: All stats increased by +4
+   - Interleaved Turns :: will have 2AP between every enemy turn.
+** After Action Report
+*** Character Moments
+ - Larissa :: She will be weirdly impressed by the violence
+   the group has dished out against the acolytes. She'll gain
+   a new found respect for the party and be willing to join
+   the party if they join her for her quests.
+ - Devlin :: Delvin will be a bit uncomfortable about the
+   violence but understand that the party is reliable and
+   capable of helping the Spartans
+ - Maria :: Accepts the party, on Larissa and Delvin's
+   recommendation, as contractors for the spartans. She'll
+   view them as a useful weapon to help the spartan's in
+   their goals.
+
+*** Plot Progression
+ 1. The party makes their way back to the /DMZ/ to speak
+     with Maria
+    - From here they will try to figure out the location of
+      the /X18/ from the shipping manifest
+ 2. Get accepted into the spartans as contractors
+    - Grants access to the spartan armory
+    - Larissa as a possible companion for the party
+    - Party gets 1000 bullet signing bonus
+ 3. When the party figures out where /X18/ is they will be
+    offered three possible routes
+    - Direct Route :: Straight through the Red Line, Fascists,
+      and independent stations.
+      - This route is quick, but dangerous
+    - Smuggler's Route :: Use a smuggler at Avtozavodskaya to
+      quickly bypass Red Line Territory leaving only Fascist
+      and Independent territory
+      - This route costs money, and if Larissa is with the
+        party, things get awkward because she and the
+        smuggler shot each other in the past.
+   - Long Way :: Swing wide and make their way overland and
+     through independent stations all the way to /X18/
+     - This route is longer, involves overland travel,
+       independent stations are a cointoss on friendliness
+   - Custom :: Party can choose any combination of the three
+     or make something up
+ 4. The party can choose what to do from here, its
+    recommended that they complete a few jobs and stock up on
+    better gear before attempting /X18/
+*** Loot
+**** Courtyard Encounter
+ - Crank Gun :: 16 STR
+ - Assassin's Suit :: 18 DEX
+ - Battlefield Medkit :: 3 Cooldown Infinite combat medkit
+ - AN 94 Assault Rifle :: High accuracy (+ 1 acc) assault
+   rifle
+
+**** Spartan Armory
+ - Officer's Armor
+   - Cost :: 250 Bullets
+   - DT :: 5
+   - Abilities
+     - Inspire :: Trade 1/2? AP to any ally for use
+       immedietly
+     - Mark Target :: 3 Cooldown 2 Round effect, advantage to
+       friendlies
+ - Demolition's Armor
+   - Cost :: 350 Bullets
+   - DT :: 5
+   - Abilities
+     - Fire for Effect :: Lock yourself in place for two
+       rounds to get 1AP fire and reloading of heavy
+       explosive weapons. Confers vulnerable (elevates
+       staggers/stuns). Once per combat
+ - Vanguard Armor
+   - Cost :: 250 Bullets
+   - DT :: 6
+   - Abilities
+     - Agression :: 2AP run and gun full sprint distance and
+       if you kill your target enemy with this action, you
+       get 1AP back immediately
+ - Titan
+   - Cost :: 450 Bullets
+   - DT :: 9
+   - Abilities
+     - Implacable :: Once per combat, for two rounds double
+       DT and able to move and shoot, but movement speed is
+       cut in half and you cannot take cover
+ - Medic
+   - Cost :: 200
+   - DT :: 4
+   - Abilities
+     - Self Stim :: Free action self heal 2 turn cooldown
+     - Combat Heal :: Battlefield medkits cooldown reduced by one

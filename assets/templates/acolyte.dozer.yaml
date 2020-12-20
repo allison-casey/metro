@@ -1,0 +1,20 @@
+type: character
+id: acolyte.dozer
+name: Acolyte Dozer
+faction: the-dead-hand
+health: 150
+dt: 9
+ap: 3
+description: >-
+  An ultra heavy chain gun wielding heavy class with the
+  ability to shrug off most attacks.
+passives:
+  - id: huge
+    name: Huge
+    description: Cannot take cover
+  - id: spin-up
+    name: Spin Up
+    description: >-
+      Increase the speed of the chain gun by one which increases
+      the number of shots fired by one. (removed after taking
+      headshot or staggered by explosives)

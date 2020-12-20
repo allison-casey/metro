@@ -1,0 +1,99 @@
+* Border Dispute
+- Reward :: 300
+Dispute between station patriarchs of rival stations under
+Spartan protection (Proletarskaya, Krestyansky Prospect) over the
+deaths of a son from each side.
+
+The two sons, Merkisk (from Proletarskaya) and Lyudi (from
+Krestyansky Prospect), killed each other after Lyudi flew into a
+rage from finding out his soon to be brother in law Roman
+was actually in love with Merkisk's younger brother Jacob
+and were planning on running away together to an aunt living
+in the *DMZ*.
+
+The stations will both think the other kidnapped the their
+missing son and are planning on going to war over it. The
+party is tasked with finding out what happened to the two
+boys and stopping the coming conflict. If they fail, it will
+trigger several minor earthquakes and add a tick to the doom
+ticker.
+** The Solution
+The party will find an encrypted message in the trash can of
+whichever boys' rooms they visit first which will say...
+
+- Encrypted :: "tlla tl ha aol iyvrlu spnoa"
+- Unencrypted :: "meet me at the broken light"
+- Notes Order :: a, e, d, b, c
+- Shift Cipher Key :: 7
+
+The broken light is a location between the two stations that
+marks the entrance of a service tunnel that the boys were
+going to use to run away. The party will only notice it if
+they've solved the puzzle first. Once they go down the
+old service tunnel, the party will find Jacob recovering
+from a gunshot wound inflicted by Lyudi with Roman and
+enough supplies to get them to the DMZ. From there the party
+can return the two to their respective stations to prevent
+the conflict, tell the respective parents about the love
+affair, or do whatever its dnd lol.
+
+** Characters
+*** Carcan's
+- Czar Carcan
+  - R&J Equivalent :: Capulet
+  - Status :: Alive
+  - Faction :: Krestyansky Prospect
+  - Relationships
+    - Father of Roman
+    - Uncle of Lyudi
+- Jacob
+  - R&J Equivalent :: Juliet
+  - Status :: Wounded
+  - Faction :: Krestyansky Prospect
+  - Relationships
+    - Lyudi's brother
+    - Roman's boyfriend
+- Lyudi
+  - R&J Equivalent :: Tybalt
+  - Status :: Dead
+  - Faction :: Krestyansky Prospect
+  - Relationships
+    - Cousin of Jacob
+    - Soon to be brother in law of Roman
+  - Cause of Death :: Stabbed to death by Merkisk
+- Rosalina
+  - R&J Equivalent :: Rosaline
+  - Status :: Alive
+  - Faction :: Krestyansky Prospect
+  - Relationships
+    - Sister of Lyudi
+    - Former fiance to Roman
+*** Macedo's
+- Jonah Macedo
+  - R&J Equivalent :: Montague
+  - Status :: Alive
+  - Faction :: Proletarskaya
+  - Relationships
+    - Father of Merkisk and Roman
+- Merkisk
+  - R&J Equivalent :: Mercutio
+  - Status :: Dead
+  - Faction :: Proletarskaya
+  - Relationships
+    - Son of
+    - Brother of Jacob
+  - Cause of Death :: Shot to death by Lyudi while
+    defending Roman
+- Roman
+  - R&J Equivalent :: Romeo
+  - Status :: Alive
+  - Faction :: Proletarskya
+  - Relationships
+    - Lyudi's soon to be brother in law
+    - Jacob's boyfriend
+    - Former fiance of Rosaline
+*** Side Characters
+- Eski
+  - R&J Equivalent :: Prince Escalus
+  - Status :: Alive
+  - Faction :: Spartan Emissary

@@ -1,0 +1,27 @@
+type: character
+id: bandit.gunner
+name: Bandit Gunner
+faction: bandits
+health: 60
+dt: 4
+ap: 3
+abilities:
+  - id: suppression
+    name: Suppressing Fire
+    description: >-
+      Rake a stream of bullets across an area of 4 tile
+      diameter, imparting Suppressed to all enemy units
+      in the targe zone. Suppressed targets suffer
+      disadvantage on attack rolls and are subject to
+      a standard attack roll if the target moves
+      from their cover.
+    ap: 2
+    cooldown: 2
+
+  - id: shoot
+    name: Basic Shot
+    description: Badit takes aim with their lmg and fires.
+    ap: 2
+    cooldown: 0
+    accuracy: 2 - 1 + 1d20
+    damage: 12 + 1d20

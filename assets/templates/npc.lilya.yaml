@@ -1,0 +1,45 @@
+type: character
+id: npc.lilya
+name: Lilya
+health: 60
+dt: 2
+faction: independent
+ap: 3
+description: >-
+    Inspirational officer focusing on party buffs and action
+    economy manipulation
+passives:
+  - id: inspiring-presence
+    name: Inspiring Presence
+    description: >-
+        Allies in proximity to her gain bonus (ADV) to moral
+        checks and must roll a panic save if she dies.
+abilities:
+  - id: command
+    name: Command
+    description: >-
+      Trade 1AP with any ally on there turn
+    cooldown: 3
+    ap: 1
+  - id: inspire 1
+    name: Inspire
+    description: >-
+      On her turn, trade one AP with allies for use on
+      their turn.
+    cooldown: 3
+    ap: 1
+  - id: inspire 2
+    name: Inspire
+    description: >-
+      On her turn, trade 2AP with allies for use on
+      their turn.
+    cooldown: 5
+    ap: 2
+  - id: mark-target
+    name: MarkTarget
+    description: >-
+      For 2 rounds, allies have advantage to hit marked
+      target.
+    cooldown: 3
+    duration: 2
+    ap: 2

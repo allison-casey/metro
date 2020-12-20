@@ -1,0 +1,66 @@
+type: character
+id: bandit.king
+name: Bandit King
+faction: bandits
+interleaved?: true
+health: 200
+dt: 6
+ap: 3
+description: >-
+    Leader by blood of a bandit group, more powerful and
+    deadly than your average raider, but cocky and
+    prone to overestimating their power.
+abilities:
+  - id: terrifying
+    name: Terrifying Presence
+    description: >-
+      Free action, damage dealt while this ability is active
+      will have chance to cause target to panic +12 END save
+    cooldown: 6
+    duration: 2
+    ap: 0
+
+  - id: firebomb
+    name: Molotov Cocktail
+    description: >-
+      The king quickly throws a small molotov cocktail at
+      the target. Fire damage goes through DT but only
+      lasts one turn.
+    accuracy: 3 + 1d20
+    damage: 6 + 1d8
+
+  - id: overhead-slam
+    name: Heavy Overhead Slam
+    description: >-
+      The King heaves the greatsword high over his head,
+      before slamming it down in front of him with immense
+      force, staggering any target it by it.
+    cooldown: 3
+    ap: 2
+    damage: 18 + 1d10
+    accuracy: 3 - 1 + 1d20
+
+  - id: light-attack
+    name: Light Attack (Comboable)
+    description: >-
+      Generic simple attack that, if landed consecutively,
+      adds 5 DMG to the next roll
+    ap: 1
+    cooldown: 0
+    damage: 10 + 1d10
+    accuracy: 3 + 1d20
+
+  - id: dodge
+    name: Dodge Roll
+    description: >-
+      ability to turn any attack into an opposed roll by
+      dodge rolling out of the way on the enemy's turn.
+    ap: 1
+    cooldown: 2
+
+  - id: estus
+    name: Sip That Estus
+    description: >-
+      Take a sip from a his flask and restore 40 HP.
+    ap: 1
+    cooldown: 5

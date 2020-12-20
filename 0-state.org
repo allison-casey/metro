@@ -1,0 +1,59 @@
+* State
+Current state of various overarching systems in the campaign
+
+** Doom Ticker
+Each tick on the doom ticker will trigger more violent
+earthquakes and more frantic encounters with Aeon. At tick
+two, acolytes of The End will become emboldened and carry
+out more attacks trying to push it to tick three. At tick
+three there will be a collapse which will result in several
+pieces of the world disappearing (characters, places, etc)
+that all characters unaware of the time loop will have no
+recollection of.
+
+- Ticker :: [x] [ ]
+
+** Book Return
+While at the Moscow Library, the party checked out several
+books from the Librarian. They are on seven day lone and if
+they do not return the books by then, the Librarian will
+hunt them down and force them to return it. In order to
+escape a deadly fight, each party member will have to give
+up the thing they care for most.
+
+- Days Since Checkout :: 7 of 7
+
+** Job Board
+ - [ ] Independent hideout :: Independent stalker faction has set
+   up a surface way station directly on top of a Spartan Safe
+   House
+   - Reward :: 200 Bullets
+   - Expires In :: 0 days
+   - Failure :: Prices increased at spartan armory
+
+ - [x] Caravan Duty :: Spartans are relocating a group of
+   refugees to friendly territory after their station was
+   destroyed by bandits
+   - Companions :: Larissa
+   - Reward :: 200 Bullets
+   - Failure :: Doom Ticker
+
+ - [x] Bug Hunt :: Spider bug nest moved in next to friendly
+   station and has been picking off residents and travelers
+   in the night
+   - Companions :: Larissa
+   - Reward :: 300 Bullets
+   - Failure :: Doom Ticker
+
+ - [ ] Border Dispute :: Dispute between rival stations friendly
+   to spartans  (Proletarskaya, Volgogradskaya)
+   - Reward :: 300 Bullets
+   - Expires In :: 0
+   - Failure :: Doom Ticker
+
+** Larissa
+- Traumatized by AEON impersonating KAYLEE
+- Met LILYA
+- LILYA didn't die during caravan
+- Did not come back injured from spider hunt
+- Want's to live through encounter with THE END

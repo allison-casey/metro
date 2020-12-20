@@ -1,0 +1,17 @@
+type: factions
+factions:
+  - id: spartans
+    name: Spartans
+    color: "#d1daff"
+  - id: bandits
+    name: Bandits
+    color: "#ffa49e"
+  - id: monsters
+    name: Monsters
+    color: "#a38f97"
+  - id: the-dead-hand
+    name: The Dead Hand
+    color: "#919191"
+  - id: independent
+    name: Independent
+    color: "#95a341"
