@@ -6,7 +6,7 @@
 #+begin_src fountain
 Title: Metro Was A Mistake
 Credit: written by
-Author: Steve Casey
+Author: Allison Casey
 Source: Based on the novel by Dmitry Glukhovsky
 
 
@@ -29,53 +29,6 @@ Source: Based on the novel by Dmitry Glukhovsky
 
   There are talks of war...
 #+end_src
-
-** Characters
-*** Dwayne The Iraq Johnson :Independent:
-
-- Age :: 47
-- Alignment :: Lawful Good
-- Status :: Dead
-- Gender :: Male
-
-*** Katya :independent:
-
-- Age :: 38
-- Alignment :: Lawful Good
-- Gender :: Female
-
-*** Peter :independent:
-
-- Age :: 15
-- Alignment :: Lawful Good
-- Gender :: Male
-
-*** Jed :independent:
-
-- Age :: 17
-- Alignment :: Chaotic Evil
-- Gender :: Male
-
-*** Delvin :stalkers:
-
-- Age :: 58
-- Alignment :: Neutral Good
-- Gender :: Male
-
-*** Aion :independent:
-
-- Age :: N/A
-- Alignment :: Neutral Good
-- Gender :: NB
-
-*** Larissa :stalkers:
-
-Trained to be a stalker from birth, Larissa exhibits a
-brutality in combat unmatched by her fellow stalkers.
-
-- Age :: 27
-- Alignment :: True Neutral
-- Gender :: Female
 
 ** Locations
 *** The DMZ
@@ -1696,7 +1649,7 @@ office.
   (Continuing to be a chauvinist to MARIA)
 
   As you continue your misogynistic diatribe, MARIA quietly
-  picks up her phone, speaking a few words to someone, her 
+  picks up her phone, speaking a few words to someone, her
   words inaudible over your ranting.
 
   It's not a minute later that the doors slide open and in
