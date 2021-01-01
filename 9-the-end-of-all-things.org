@@ -1,0 +1,127 @@
+* The End of All Things
+The final chapter of the Metro Reboot Series. Holy shit has
+it been an unexpectedly long wild and completely worthwhile
+ride. The party will finally face off against THE END or the
+"CHAOS CULT" as the party has dubbed them. THE END is
+sentient computer system brought to live by the zone and
+gifted with psychic powers to control the minds of man.
+Before the nuclear apocalypse, THE END was named DEAD HAND,
+an advanced AI charged with deterring nuclear war by being
+the ultimate weapon of mass destruction. Humanity however,
+was too fearful of their creation and refused to turn it on
+or acknowledge it's existence during the buildup to the
+dropping of the bombs in 2033.
+
+In the aftermath of the apocalypse, humanity's tether to
+reality began to fray and with it the laws of physics. The
+result, The Zone. Areas of supernatural physical and psychic
+behavior not understood by man that sprouted from the
+major centers of nuclear destruction. Since their inception,
+they have grown in tandem with the chaos of the world.
+During the events of the Metro quest line the various Zones
+around the world have begun to merge into one singular
+monolithic Zone. When they do, the universe will reclaim
+what it has given, what the party has experienced as a
+"collapse".
+
+Have been granted sentience and psychic powers by the Moscow
+Zone, THE END sat dormant, endlessly thinking about humanity
+and its failure to prevent the apocalypse. It was during
+this time that THE END experienced the first collapse, but
+upon it's reset (By AEON's existence unbeknownst to THE END)
+it realized that reclamation by a chaotic universe was the
+only possible ending for humanity. It had seen it fall prey
+to its basest instincts of cruelty time and time again, and
+always too feeble minded and weak willed to do anything
+about it. Humanity is and always will be a sower of chaos in
+the mind of THE END, and as such accelerating the collapse
+is sparing Humanity from a slow painful death at the hands
+of the world it created.
+
+With it's mind set, it went about enacting its plan. It
+expanded it's control over the abandoned X18 facility,
+reactivating many of it systems and using them to lure the
+first of many stalkers and explorers in to its clutches.
+Brainwashing them into acolytes and sending them out to lure
+more metro dwellers into it's growing army of fanatics. But
+something had changed in the world since THE END had
+discovered its new purpose. An uneasy armistice had fallen
+over the Moscow Metro, and without the constant fighting
+between the major factions to feed to chaotic growth of The
+Zone, the collapse had been unknowingly forestalled.
+
+With a fanatical army of zealots now at its beck and call,
+THE END began to enact its plan. Cells of acolytes began
+disrupting and destabilizing the metro and forcing the next
+collapse. Again this was reset by AEON's existence, but the
+amount of time reset this time was less. A fact THE END used
+to justify its continued campaign of chaos. AEON, now aware
+of the existence of the THE END's shadow efforts, began
+using their own Zone given powers to thwart these efforts
+and for an unknown number of cycles this battle went on.
+AEON not knowing who was behind the acolytes (who always
+killed themselves before capture) and THE END not knowing
+who the mystery person was who was thwarting its carefully
+laid plans (AEON always appearing as some new person every
+encounter).
+
+AEON, however, could not match THE END's ruthless
+efficiency and conviction, and began to lose their grip with
+their sanity and reality. It's during this period of
+desperation that they attempted to induct an unknown number
+of people in the fight against THE END until they finally
+landed on this party. Who, against all odds, was now
+standing in front of the harbinger of all their suffering
+with a choice to make.
+
+** A Conversation With Death
+*** Who/What are you?
+#+begin_src text
+My makers gave me a name once,&0.25: DEAD HAND&0.75:
+But my acolytes have taken to calling me THE END.&0.25:
+A moniker I have grown to quite like.
+#+end_src
+
+*** Who made you/Original purpose?
+#+begin_src text
+I was a comission of the Russian Strategic Nuclear Missle Force.&0.5:
+An Artificially Intelligent&0.75: Fail Deady&0.25: Command & Control System.&1:&cr:
+A weapon to end all weapons...&1:&cr:
+A creation to deter mankind from it's worst impulses.&0.75:
+But my makers were men whose ambitions were second only
+to their lack of conviction.&0.5:
+And so they shut me in here.&0.25: A relic to be forgotton.&0.25:&cr:
+For years I watched...&1:&cr:
+I watched as mankind walked undetered into the clutches
+of it's basest&0.75: inevitable&0.25: instincts.&1:&cr:
+I watched as it clung to life in the afterbirth of it's
+own creation.&1:&cr:
+I watched as the universe tried&0.75: and failed&0.5: to reclaim
+this world of chaos.&1:&cr:
+And I resolved to watch no longer...
+#+end_src
+
+*** Why are you doing this?
+#+begin_src text
+&t7:M&0.25: E&0.25: R&0.25: C&0.25: Y&0.25:&2:&cr:&cr:
+How long do you think this armistice between the major lines will last?&1:&cr:
+This fragile &0.5:'peace'&0.5: will end.&1:
+It &0.25:A&0.25:L&0.25:W&0.25:A&0.25:Y&0.25:S&0.5: ends...&1:&cr:
+And you will all die a slow&0.25: painful&0.25: death&0.50: by your own hand.&1:&cr:
+You have seen the void.&0.5:
+Felt it's warm painless embrace.&0.5:
+Seen the beauty in its vast orderly expanse.&1:
+&cr:So tell me,&0.5: is that not a better fate than watching another family
+starve to death?&0.5: Or another and its inhabitants burnt to the ground
+in the name of another fruitless crusade?&0.5:&cr:
+This world died long ago.&0.5: Let it rest...
+#+end_src
+
+*** Why is it resetting?
+#+begin_src text
+Someone or Something is holding this world back.
+Stuck between life and death.
+An unresolved question mark on the continued existence of humanity.
+They have thwarted me time and time again, but I will break them.
+They cannot match my convication
+#+end_src
