@@ -112,16 +112,31 @@ You have seen the void.&0.5:
 Felt it's warm painless embrace.&0.5:
 Seen the beauty in its vast orderly expanse.&1:
 &cr:So tell me,&0.5: is that not a better fate than watching another family
-starve to death?&0.5: Or another and its inhabitants burnt to the ground
-in the name of another fruitless crusade?&0.5:&cr:
+starve to death?&0.5: Or another station burnt to the ground
+in the name of one more fruitless crusade?&0.5:&cr:
 This world died long ago.&0.5: Let it rest...
 #+end_src
 
 *** Why is it resetting?
 #+begin_src text
-Someone or Something is holding this world back.
-Stuck between life and death.
-An unresolved question mark on the continued existence of humanity.
-They have thwarted me time and time again, but I will break them.
-They cannot match my convication
+Someone&0.5: or Something&0.5: is holding this world back.&1:
+Walking the planes between life and death.&0.75:
+An unresolved question mark on the continued existence of humanity.&0.75:
+They have thwarted me &0.25:time &0.4:and time&0.4: again,&1:&cr:
+but I will break&0.25: them.&1:
+&cr:Body &0.2:and mind.&1.5:&cr:
+&cr:With each collapse the time reset grows less &0.25:and less.&1:
+They cannot stop the tide forever.&1:
+They cannot match &1:my convication.&1:
+#+end_src
+
+*** We won't join you.
+#+begin_src text
+You &0.5:tiny &0.5:things.&1: In the face of the fabulous new your only
+thought is to kill.&0.75: For fear of great change?&cr:&0.75:
+You can’t hold the tide&cr:&1:
+with a broom.&cr:&cr:&cr:&2:
+You have been weighed on the scales&0.25:
+And I have found you&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&1.5:&cr:&cr:
+Wanting.
 #+end_src
