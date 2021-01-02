@@ -138,5 +138,59 @@ You can’t hold the tide&cr:&1:
 with a broom.&cr:&cr:&cr:&2:
 You have been weighed on the scales&0.25:
 And I have found you&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&0.40:.&1.5:&cr:&cr:
-Wanting.
+&clear:
+&cr:&cr:&cr:&cr:&cr:&cr:&cr:&cr:&cr:&cr:&cr:&cr:
+&t8:&1:W&0.25:a&0.25:n&0.25:t&0.25:i&0.25:n&0.25:g&0.25:.&5:&clear:
+#+end_src
+
+*** Death of THE END
+#+begin_src text
+&cr:&cr:&cr:&cr:&cr:&cr:
+You &0.1:f&0.05:f&0.05:oo&0.05:ls s .&1.2:
+You h&0.25: have &0.1:d &0.1:do &0.1:doomed &0.5:them &0.5:them all
+To a &1:life&0.4:time of s&1:uffe&0.5:ring .&1:&cr:
+You &0.75:
+&t2:did &0.75:
+&t4:this.&1:&cr:&cr:
+Embrace &0.25:thi&0.1:s&cr:
+&t7:&1:P &0.7:A &1:I &0.8:N&0.9:&cr:
+&t3:you &t1:hav3 &t2:caused, @s &t1:&1:I &1:&t1:have .. .&cr:&cr:
+&t1:Th&0.002:  e&0.004:ir &0.007:& &0.011:pa!n &0.017:i5 &0.024:&t1:y0ur &0.033:re &0.044:r &0.057:r&0.072:e&0.089:s&0.108:p&0.130:0&0.155:n&0.182:s&0.212:!&0.246:b&0.282:i&0.321:(&0.364:i&0.411:t&0.460:y&0.514: &0.571:n&0.632:o&0.697:w&0.767:.&0.840:.&0.918:.&1.000:
+#+end_src
+
+**** Backups of final line
+#+begin_src text
+&t1:Th  eir & pa!n i5 &t1:y0ur re r resp0ns!bi(ity now...
+&t1:Th  e&0.2:ir & pa!n i5 &t1:y0ur re &0.5:r &0.5:res&0.01:p&0.02:0&0.03:n&0.05:s&0.08:!&0.12:b&0.17:i&0.23:(&0.23:i&0.30:t&0.38:y &0.47:n&0.58:o&0.71:w&0.85:.&1:.&1:.&1:
+#+end_src
+
+**** Last Line Code
+#+begin_src hy
+(import math
+        [numpy :as np]
+        [funcy [lmap map]])
+
+(require [hy.extra.anaphoric [%]]
+         [hy.contrib.walk [let]])
+
+(let [sentence ["&t1:Th" "  e" "ir " "& " "pa!n " "i5 " "&t1:y0ur " "re " "r " "r" "e"
+                "s" "p" "0" "n" "s" "!" "b" "i" "(" "i" "t" "y" " " "n" "o" "w" "." "." "."]
+      delays (->> (np.linspace 0.1 1 (len sentence))
+                (map #%(** %1 math.e))
+                (map #%(.format "&{:.2f}:" %1)))]
+  (print (str.join "" (interleave sentence delays))))
+#+end_src
+
+** Aftermath
+*** They Die
+#+begin_src fountain
+#+end_src
+*** They Live
+#+begin_src fountain
+You stand at a ridgeline in the soft morning glow, looking
+off at the distant skyline of downtown Moscow.
+You wonder, of all the deaths that brought you here.
+Nevada Neville, Vardan, <PCs who died in battle with THE
+END>. The bits and pieces of you, left behind in this wasteland.
+
 #+end_src
