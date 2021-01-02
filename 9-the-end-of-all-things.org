@@ -1,4 +1,5 @@
 * The End of All Things
+** Lore
 The final chapter of the Metro Reboot Series. Holy shit has
 it been an unexpectedly long wild and completely worthwhile
 ride. The party will finally face off against THE END or the
@@ -109,8 +110,9 @@ This fragile &0.5:'peace'&0.5: will end.&1:
 It &0.25:A&0.25:L&0.25:W&0.25:A&0.25:Y&0.25:S&0.5: ends...&1:&cr:
 And you will all die a slow&0.25: painful&0.25: death&0.50: by your own hand.&1:&cr:
 You have seen the void.&0.5:
-Felt it's warm painless embrace.&0.5:
+Felt its warm painless embrace.&0.5:
 Seen the beauty in its vast orderly expanse.&1:
+Our presence &0.5:a wound, &0.5:the void &0.5:the unthinking reaction of the universe.&1:
 &cr:So tell me,&0.5: is that not a better fate than watching another family
 starve to death?&0.5: Or another station burnt to the ground
 in the name of one more fruitless crusade?&0.5:&cr:
