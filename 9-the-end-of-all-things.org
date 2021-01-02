@@ -166,24 +166,69 @@ Embrace &0.25:thi&0.1:s&cr:
 
 **** Last Line Code
 #+begin_src hy
-(import math
-        [numpy :as np]
-        [funcy [lmap map]])
+;; * THE END last line
+;; ** Imports
+(import
+  math
+  [numpy :as np]
+  [funcy [lmap map lfilter filter]]
+  [hy.contrib.pprint [pp]])
 
-(require [hy.extra.anaphoric [%]]
-         [hy.contrib.walk [let]])
+(require
+  [hy.extra.anaphoric [%]]
+  [hy.contrib.walk [let]])
 
-(let [sentence ["&t1:Th" "  e" "ir " "& " "pa!n " "i5 " "&t1:y0ur " "re " "r " "r" "e"
-                "s" "p" "0" "n" "s" "!" "b" "i" "(" "i" "t" "y" " " "n" "o" "w" "." "." "."]
+;; ** Methods
+(defn spy [x] (pp x) x)
+
+(let [sentence ["&t1:Th" "  e" "ir " "& "
+                "pa!n "
+                "i5 "
+                "&t1:y0ur "
+                "re " "r " #* "resp0ns!bi(ity "
+                #* "now..."]
+
       delays (->> (np.linspace 0.1 1 (len sentence))
                 (map #%(** %1 math.e))
-                (map #%(.format "&{:.2f}:" %1)))]
+                (map #%(.format "&{:.3f}:" %1)))]
+
   (print (str.join "" (interleave sentence delays))))
 #+end_src
 
 ** Aftermath
 *** They Die
 #+begin_src fountain
+Your bodies lie motionless on the cold concrete floor of X18.
+The last embers of life drifting off into the night.
+But before you are gone completely, with the scraping of bodies on concrete
+You are dragged by THE END's winding tendrils into its embrace
+to be reborn into the waking death of its final acolytes.
+
+Without a word you are sent forth into the wasteland
+in search of AEON. Its not long before you find them
+curled up on the floor of some forgotten tunnel. The spark
+of recognition in their eyes. And even after it becomes
+clear that you are not the ones they met in that tunnel long ago,
+they smile all the same.
+
+With a wordless exchange, AEON pulls a knife from their pocket
+and hands it to RICKY. Who, with one final look, drives it deep
+into their chest, rupturing their heart.
+
+As they crack and shatter like a porcelin doll, eminating that same
+blinding empty light of the void, with the world shaking itself apart you,
+tears wet their face. Not of sadness, but of joy. you have given them
+the one thing they could never give themselves.
+
+Freedom.
+
+For these final moments, THE END, releases you from its control. With the
+shards of AEON scattered at your feet you look towards each other. In
+the presence of your friends, the universe swallows you whole.
+
+for the chance at something new...
+
+THE END
 #+end_src
 *** They Live
 #+begin_src fountain
@@ -192,5 +237,15 @@ off at the distant skyline of downtown Moscow.
 You wonder, of all the deaths that brought you here.
 Nevada Neville, Vardan, <PCs who died in battle with THE
 END>. The bits and pieces of you, left behind in this wasteland.
+All the brainwashed acolytes that fell at your feet.
 
+Was it worth it?
+
+But this world is not want for musings of the heart. All that matters
+is the here and now.
+
+And here, and now, against that desolate skyline you see the shadow of something
+you thought forgotten. In that shadow you see, _one_ _very_ _angry_ librarian.
+
+THE END
 #+end_src
