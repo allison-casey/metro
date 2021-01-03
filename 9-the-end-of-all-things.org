@@ -183,15 +183,21 @@ Embrace &0.25:thi&0.1:s&cr:
 ;; ** Methods
 (defn spy [x] (pp x) x)
 
-(let [sentence ["&t1:Th" "  e" "ir " "& "
+(let [sentence [;; their
+                "&t1:Th" "  e" "ir " "& "
+                ;; pain
                 "pa!n "
+                ;; is
                 "i5 "
+                ;; your
                 "&t1:y0ur "
+                ;; responsibility
                 "re " "r " #* "resp0ns!bi(ity "
+                ;; now...
                 #* "now..."]
 
-      delays (->> (np.linspace 0.1 1 (len sentence))
-                (map #%(** %1 math.e))
+      delays (->> (np.logspace 0.1 1 (len sentence))
+                ;; (map #%(** %1 math.e))
                 (map #%(.format "&{:.3f}:" %1)))]
 
   (print (str.join "" (interleave sentence delays))))

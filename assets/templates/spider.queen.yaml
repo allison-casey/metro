@@ -1,71 +1,71 @@
-    id: spider.queen
-    name: Spider Queen
-    interleaved?: true
-    health: 200
-    ap: 3
-    dt: 5
-    faction: spider
-    type: character
+id: spider.queen
+name: Spider Queen
+interleaved?: true
+health: 200
+ap: 3
+dt: 5
+faction: spider
+type: character
+description: >-
+  Matriarch of a spider nest, responsible for laying eggs
+  and, if times call for it, defense of the nest. She is
+  extremely powerful with a focus on area denial and ads
+passives:
+  - id: carapace
+    name: Carapace
     description: >-
-      Matriarch of a spider nest, responsible for laying eggs
-      and, if times call for it, defense of the nest. She is
-      extremely powerful with a focus on area denial and ads
-    passives:
-      - id: carapace
-        name: Carapace
-        description: >-
-          Tough outer shell reducing incoming projectile attacks
-      - id: weakness.fire
-        name: Weak to Fire
-        description: >-
-          Weakness to fire or light, lighting her on fire will
-          result in her being stunned for a turn. Shining
-          multiple lights on her (3AP worth) will result in the
-          same thing.
-    abilities:
-      - id: protect-the-queen
-        name: Protect the Queen!
-        description: >-
-          Let out a cry for help causing nearby
-          eggs to hatch prematurely and spawn spider baby ads.
-          Spawn 1d4 spiderbug hatchlings
-        cooldown: 5
-        ap: 3
-        damage: 1d4
-      - id: acid-spit
-        name: Acid Spit
-        description: >-
-          Projectile spit that causes caustic
-          damage over time (1d20 through 5 DT over 2 turns)
-        cooldown: 3
-        duration: 2
-        accuracy: 1d20 + 2
-        damage: 1d20
-        ap: 2
-      - id: sting
-        name: Sting
-        description: >-
-          Pierce the target with her scorpion
-          tail stinger, causing initial pierce damage (10 + 2d6)
-          and caustic damage over time (1d20 through armor 2 turns)
-        cooldown: 4
-        ap: 2
-        accuracy: 1d20 + 3
-        damage: 10 + 1d6
-      - id: tail-sweep
-        name: Tail Sweep
-        description: >-
-          Spin in a circle with her tail out
-          knocking all enemies within 4 tiles back for
-        cooldown: 3
-        ap: 3
-        accuracy: 1d20 + 2
-        damage: 5 + 1d6
-      - id: stab
-        name: Stab
-        description: >-
-          Stab target with one of her many legs. Reach weapon two tiles
-        cooldown: 0
-        ap: 1
-        accuracy: 1d20 + 3
-        damage: 10 + 3d6
+      Tough outer shell reducing incoming projectile attacks
+  - id: weakness.fire
+    name: Weak to Fire
+    description: >-
+      Weakness to fire or light, lighting her on fire will
+      result in her being stunned for a turn. Shining
+      multiple lights on her (3AP worth) will result in the
+      same thing.
+abilities:
+  - id: protect-the-queen
+    name: Protect the Queen!
+    description: >-
+      Let out a cry for help causing nearby
+      eggs to hatch prematurely and spawn spider baby ads.
+      Spawn 1d4 spiderbug hatchlings
+    cooldown: 5
+    ap: 3
+    damage: 1d4
+  - id: acid-spit
+    name: Acid Spit
+    description: >-
+      Projectile spit that causes caustic
+      damage over time (1d20 through 5 DT over 2 turns)
+    cooldown: 3
+    duration: 2
+    accuracy: 1d20 + 2
+    damage: 1d20
+    ap: 2
+  - id: sting
+    name: Sting
+    description: >-
+      Pierce the target with her scorpion
+      tail stinger, causing initial pierce damage (10 + 2d6)
+      and caustic damage over time (1d20 through armor 2 turns)
+    cooldown: 4
+    ap: 2
+    accuracy: 1d20 + 3
+    damage: 10 + 1d6
+  - id: tail-sweep
+    name: Tail Sweep
+    description: >-
+      Spin in a circle with her tail out
+      knocking all enemies within 4 tiles back for
+    cooldown: 3
+    ap: 3
+    accuracy: 1d20 + 2
+    damage: 5 + 1d6
+  - id: stab
+    name: Stab
+    description: >-
+      Stab target with one of her many legs. Reach weapon two tiles
+    cooldown: 0
+    ap: 1
+    accuracy: 1d20 + 3
+    damage: 10 + 3d6

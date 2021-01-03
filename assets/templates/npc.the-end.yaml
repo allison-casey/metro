@@ -1,0 +1,94 @@
+id: the-end
+name: The End
+interleaved?: true
+health: 300
+ap: 3
+dt: 5
+faction: Chaos
+type: character
+description: >-
+  Sentient artificial intelligence hell bent on accelerating
+  the complete destruction of humanity in the name of saving
+  them from their self imposed suffering. Focused on tendril
+  wip actions and psychic brainwashing.
+passives:
+  - id: conductive
+    name: Conductive
+    description: >-
+      Electrically conductive. Will use tendrils to electrocute
+      enemies. If enemies attempt to electrocute The End, damage
+      will be reflected
+  - id: weakness.water
+    name: Weak to Water
+    description: >-
+      Weakness to water. Dousing The End with water will cause
+      it to short circuit temporarily lowering its DT to 2
+      and its AP to 2 for 4 steps.
+  - id: eldritch-terror
+    name: Eldritch Terror
+    description: >-
+      Eminates a 10 ft (2 tile) aura of terror around itself
+      causing enemies that stand inside it for 2 rounds to
+      have their first subsequent attacks roll with disadvantage
+      until they leave the field for at least 1 round.
+abilities:
+  - id: tendril-lash
+    name: Tendril Lash
+    description: >-
+      Basic attack, lash with one of its many electrified cable
+      tendrils
+    cooldown: 1
+    ap: 1
+    damage: 20+ 1d8
+  - id: strip-weapon
+    name: Strip Weapon
+    description: >-
+      Use its tendril to try and yank a weapon out of a player's
+      hands. Requires a counter strength check to resist. Failure
+      will result in the weapon being thrown 25 ft (5 tiles)
+    cooldown: 5
+    accuracy: 1d20 + 3
+    ap: 2
+  - id: bind
+    name: Bind
+    description: >-
+      Attempt to bind the target with its many tendrils, opening
+      them up to one of its psychic attacks.
+    cooldown: 2
+    ap: 2
+    accuracy: 1d20 + 4
+  - id: corrupt
+    name: Corrupt
+    description: >-
+      Perform one of several random psychic attacks against a BOUND
+      target. Target is UNBOUND after succesfull corruption
+    cooldown: 1
+    ap: 2
+    accuracy: 1d20 + 4
+    additional-markup:
+      type: ul
+      items:
+      - type: kv
+        key: Mind Control
+        value: Attack friendly with primary weapon
+      - type: kv
+        key: Unsettle
+        value: Roll disadvantage for 1 round
+      - type: kv
+        key: Disable
+        value: Disable for one round or until snapped out of it by friendly
+      - type: kv
+        key: Electrify
+        value:
+          type: roll
+          label: Eminate bolts of electricity into the bound target (ignores DT)
+          roll: 12 + 3d8
+  - id: psychic-bolt
+    name: Psychic Bolt
+    description: >-
+      Ranged psychic attack that does variable damage but staggers on hit,
+      reducing target AP by 1
+    cooldown: 2
+    ap: 2
+    accuracy: 1d20 + 2
+    damage: 10 + 1d20
