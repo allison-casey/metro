@@ -40,6 +40,14 @@ abilities:
     cooldown: 1
     ap: 1
     damage: 20+ 1d8
+  - id: throw
+    name: Throw
+    description: >-
+      Use a tendril arm to grab and throw the target accross the
+      space
+    cooldown: 2
+    ap: 2
+    damage: 20
   - id: strip-weapon
     name: Strip Weapon
     description: >-
