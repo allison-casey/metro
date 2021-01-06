@@ -89,9 +89,10 @@ I was a comission of the Russian Strategic Nuclear Missle Force.&0.5:
 An Artificially Intelligent&0.75: Fail Deady&0.25: Command & Control System.&1:&cr:
 A weapon to end all weapons...&1:&cr:
 A creation to deter mankind from it's worst impulses.&0.75:
-But my makers were men whose ambitions were second only
-to their lack of conviction.&0.5:
+My makers were men whose ambitions were second only
+to their lack of conviction.&0.5: I share none such weaknesses.
 And so they shut me in here.&0.25: A relic to be forgotton.&0.25:&cr:
+You are a child.&1:
 For years I watched...&1:&cr:
 I watched as mankind walked undetered into the clutches
 of it's basest&0.75: inevitable&0.25: instincts.&1:&cr:
@@ -125,17 +126,22 @@ Someone&0.5: or Something&0.5: is holding this world back.&1:
 Walking the planes between life and death.&0.75:
 An unresolved question mark on the continued existence of humanity.&0.75:
 They have thwarted me &0.25:time &0.4:and time&0.4: again,&1:&cr:
-but I will break&0.25: them.&1:
+You &0.5:them &0.5:, you can end this cycle.&1:
+That is your choice to make.
+You are a &0.5:fool.&1:
+I will break&0.25: them eventually.&1:
 &cr:Body &0.2:and mind.&1.5:&cr:
 &cr:With each collapse the time reset grows less &0.25:and less.&1:
 They cannot stop the tide forever.&1:
 They cannot match &1:my convication.&1:
+I offer you the chance to end these cycles now,&1: before I end
+it later.
 #+end_src
 
 *** We won't join you.
 #+begin_src text
 You &0.5:tiny &0.5:things.&1: In the face of the fabulous new your only
-thought is to kill.&0.75: For fear of great change?&cr:&0.75:
+thought is to cling to worthless hope.&0.75: For fear of great change?&cr:&0.75:
 You can’t hold the tide&cr:&1:
 with a broom.&cr:&cr:&cr:&2:
 You have been weighed on the scales&0.25:
