@@ -1,0 +1,193 @@
+#!/usr/bin/env hy
+;; * Terminal Send
+;; ** Imports
+(import click
+        time
+        re
+        cuerdas
+        [pathlib [Path]]
+        [numbers [Number]]
+        [funcy [lmap map]]
+        [typing [Union]]
+        [subprocess [run CompletedProcess]]
+        [hy.contrib.pprint [pp]])
+
+(require [hy.contrib.walk [let]]
+         [hy.extra.anaphoric [%]])
+
+
+;; ** Methods
+;; *** Helpers
+(defn get-text ^str []
+  "
+  Get potentially multi-line user input stopping
+  at the first empty line
+  "
+  (let [lines []]
+    (while True
+      (let [line (input)]
+        (if line
+            (lines.append line)
+            (break))))
+    (.join "\n" lines)))
+
+(defn parse-special ^(of Union str int float)
+  [^str text]
+  "Attempts to parse a string into a `Number` if possible"
+  (defn parse-numeric [text]
+    (try
+      (int text)
+      (except [Exception]
+        (try
+          (float text)
+          (except [Exception])))))
+
+  (let [text (-> text (.lstrip "&") (.rstrip ":"))]
+    (cond [(not (none? (setx x (parse-numeric text)))) x]
+          [(= text "clear") :clear]
+          [(= text "cr") :cr]
+          [(re.match r"t(\d+)" text) (keyword text)]
+          [True (raise (ValueError f"Invalid special keyword {text}"))])))
+
+(defn parse-text ^(of Union str int float HyKeyword)
+  [^str text]
+  (if (and (.startswith text "&") (.endswith text ":"))
+      (parse-special text)
+      text))
+
+(defn number? [x] (instance? Number x))
+
+;; *** TTY Interactions
+(defn print-to-tty ^CompletedProcess
+  [^str text ^int terminal-number]
+  "
+  Writes the input text to the terminal found at `terminal-number`
+
+  Looks for the terminal with tty number at `/dev/pts/{terminal-number}`
+  To get the number of a given terminal execute the shell command `tty`
+  in the target terminal
+  "
+  ;; Using `printf` protects against newlines being eaten
+  (run f"printf \"{text}\" > /dev/pts/{terminal-number}"
+       :shell True))
+
+(defn indent-chars [^int indent]
+  (* "\\040" indent))
+
+(defn clear ^CompletedProcess
+  [^int terminal-number]
+  "Clears the target terminal of all text"
+  ;; '\033\0143' is the terminal control sequence for clearing the screen
+  (let [cmd (.format "echo -e \"\\033\\0143\" > /dev/pts/{}" terminal-number)]
+    (run cmd :shell True)))
+
+(defn simulate-typing ^None
+  [^str text ^int terminal-number &optional ^float [delay 0.075] ^int [indent 0]]
+  "
+  Will write the given `text` character by character with a `delay`
+  between each character.
+  "
+  (for [char text]
+    (if (= char "\n")
+        (print-to-tty (+ char (indent-chars indent)) terminal-number)
+        (print-to-tty char terminal-number))
+    (time.sleep delay)))
+
+(defn spy [x] (print x) x)
+
+(defn simulate-dialogue ^None
+  [^str text ^int terminal-number &optional ^Number [delay 0.075] ^int [indent 0]]
+  "
+  Will write the given `text` character by character with a `delay`
+  between each character. Supports a number of special character
+  sequences to control how output is printed.
+
+  Character Sequences:
+  `&\d.\d`  - Any number preceded by an '&' will cause an additional delay
+              of that many seconds before continuing on
+  `&clear`  - If the line is equal to this, will clear the entire screen
+  `&cr`     - Will add a new line to the output
+  `&t<int>` - Instantly moves the cursor this number of tabs
+  "
+  (let [;; Split the text at the special character sequences
+        ;; preserving (and converting) the special sequence
+        parts (->> text
+                 (re.split r"(&[\w\.]+:)")
+                 (map parse-text))]
+    (for [part parts]
+      (if
+        (number? part)  (time.sleep part)
+        ;; Adds a new line to the text
+        (= part :cr)    (print-to-tty (+ "\n" (indent-chars indent)) terminal-number)
+        ;; Clears the entire console
+        (= part :clear) (clear terminal-number)
+
+        ;; Instantly indent the cursor `t<num>` times
+        (setx match (re.match r"t(\d+)" (name part)))
+        (as-> match $
+           (.group $ 1)
+           (int $)
+           (* "    " $)
+           (print-to-tty $ terminal-number))
+
+        ;; Write the text to console
+        (simulate-typing
+          part
+          terminal-number
+          :delay delay
+          :indent indent)))
+
+    ;; Ensure the cursor is on a empty line for the next dialogue
+    (print-to-tty (+ "\n\n" (indent-chars indent)) terminal-number)
+    None))
+
+(defn append-text [path text]
+  (with [f (path.open "a")]
+    (f.write text)
+    (f.write "\n")))
+
+;; ** Main
+(with-decorator
+  (click.command)
+  (click.option "-i" "--indent" :type int :default 8)
+  (click.option "-o" "--output" :type Path)
+  (click.argument "terminal-number")
+  (defn main [indent output terminal-number]
+    "
+    Write and manipulate the text of the tty interface
+    found at `/dev/pts/$TERMINAL_NUMBER`
+
+    'Ctrl + c' will skip the current input
+
+    'Ctrl + d' will exit the program
+
+
+    Character Sequences:
+
+    `&\d.\d` - Any number preceded by an '&' will cause an additional delay
+              of that many seconds before continuing on
+
+    `&clear` - If the line is equal to this, will clear the entire screen
+
+    `&cr`    - Will add a new line to the output
+    "
+    (defn input-seperator [] (print "" (* "-" 30) "" :sep "\n"))
+    (setv output (or output (Path f"terminal-send.{terminal-number}.log")))
+
+    (input-seperator)
+    (clear terminal-number)
+    (print-to-tty (indent-chars indent) terminal-number)
+    (try
+      (while True
+        (try
+          (let [text (get-text)]
+            (simulate-dialogue text terminal-number :indent indent)
+            (append-text output text))
+          (except [KeyboardInterrupt]))
+        (input-seperator))
+      (except [EOFError]))))
+
+(defmain [&rest args]
+  (main))
+
+;; ** Debug
